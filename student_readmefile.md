@@ -10,7 +10,7 @@ L’objectif principal est de **[objectif du produit / problème résolu]**.
 
 ## Équipe
 - Prénom Nom - Ibrahim Moriba Camara
-- Prénom Nom - Num Étudiant
+- Prénom Nom - Hajar Chobani
 - Prénom Nom - Num Étudiant
 
 ---
