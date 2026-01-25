@@ -7,25 +7,25 @@
 ---
 
 ## 1. Contexte
-- **Problème / besoin :** <ce qui déclenche la décision>
+- **Problème / besoin :**Les nouveaux immigrants au Canada font face à des démarches administratives et logistiques complexes, comme l'obtonation de nas, de la carte de transport, l'ouverture de compte bancaire et la recherche de logement. Les informations sont réparties sur plusieurs plateformes, ce qui rend le processus d’intégration long et difficile. 
 - **Contraintes :** <techniques, temps, équipe, outils>
-- **Forces en présence :** <qualité, performance, simplicité, risques>
+- **Forces en présence :**Simplicité d’utilisation, centraliosation de l'inforamation, 
 
 ---
 
 ## 2. Décision
-> Décrire la décision en 1–3 phrases.
-- Nous choisissons : <solution retenue>
-- Pour : <objectif>
+Nous avons décidé de développer une application centralisée appelée CanadaWelcome
+- Nous choisissons une application unique regroupant les services essentiels à l’intégration des nouveaux immigrants.
+- Pour faciliter, structurer et accélérer leur intégration à la société canadienne.
 
 ---
 
 ## 3. Alternatives considérées
-### Option A — <nom>
+### Option A — siteWeb
 - **Avantages :** <...>
 - **Inconvénients :** <...>
 
-### Option B — <nom>
+### Option B — Application mobile
 - **Avantages :** <...>
 - **Inconvénients :** <...>
 
