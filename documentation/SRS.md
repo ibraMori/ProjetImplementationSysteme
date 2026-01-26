@@ -1,6 +1,6 @@
 # Cahier des charges (SRS léger) — <Nom du projet>
-**Équipe :** <Noms>  
-**Date :** <YYYY-MM-DD>  
+**Équipe :** Hajar Chobani, Rayane Achoukairi ,Ibrahim Moriba Camara
+**Date :** <2026-01-25>  
 **Version :** <v0.1 / v1.0>
 
 ---
