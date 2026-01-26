@@ -1,15 +1,15 @@
 # Architecture Decision Records ADR-<NN> — <Titre de la décision>
-**Statut :** Proposed | Accepted | Rejected | Superseded  
-**Date :** <YYYY-MM-DD>  
-**Décideurs :** <noms>  
-**Contexte projet :** <nom du projet / module>
+**Statut :** Proposed 
+**Date :** <2026-01-25>  
+**Décideurs :** <Hajar Chobani, Rayane Achoukairi ,Ibrahim Moriba Camara >  
+**Contexte projet :** <CanadaWelcome / application d'intégration des nouveaux immigrants >
 
 ---
 
 ## 1. Contexte
-- **Problème / besoin :**Les nouveaux immigrants au Canada font face à des démarches administratives et logistiques complexes, comme l'obtonation de nas, de la carte de transport, l'ouverture de compte bancaire et la recherche de logement. Les informations sont réparties sur plusieurs plateformes, ce qui rend le processus d’intégration long et difficile. 
-- **Contraintes :** <techniques, temps, équipe, outils>
-- **Forces en présence :**Simplicité d’utilisation, centraliosation de l'inforamation, 
+- **Problème / besoin :**Les nouveaux immigrants au Canada font face à des démarches administratives et logistiques complexes, comme obtenir le NAS, la carte de transport,et aussi l'ouverture de compte bancaire et la recherche de logement. Les informations sont réparties sur plusieurs plateformes, ce qui rend le processus d’intégration long et difficile.Aussi des fois les nouveaux immigrants ne save pas tous démarches administratives à faire   . 
+- **Contraintes :avoir une application simple et accessible, temps de développement limité , équipe reduite, outils
+- **Forces en présence :Simplicité d’utilisation, centraliosation de l'inforamation, réduction du stresse pour les nouveaux immigrants, éviter d'avoir des informations incomplètes ou non à jours
 
 ---
 
@@ -22,12 +22,12 @@ Nous avons décidé de développer une application centralisée appelée CanadaW
 
 ## 3. Alternatives considérées
 ### Option A — siteWeb
-- **Avantages :** <...>
-- **Inconvénients :** <...>
+- **Avantages : plus facile , moins coûteux, moins de temp pour développement
+- **Inconvénients : quand tu quitte le site web tu dois commencer a zero, informations non regroupées, difficile à utiliser
 
 ### Option B — Application mobile
-- **Avantages :** <...>
-- **Inconvénients :** <...>
+- **Avantages : informations regroupées,
+- **Inconvénients : temp de développement plus élevé
 
 ---
 
