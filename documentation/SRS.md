@@ -6,11 +6,11 @@
 ---
 
 ## 1. Contexte & objectif
-- **Contexte :** **Les nouveaux immigrants au Canada font face à des démarches administratives et logistiques complexes, comme obtenir le NAS, la carte de transport,et aussi l'ouverture de compte bancaire et la recherche de logement. Les informations sont réparties sur plusieurs plateformes, ce qui rend le processus d’intégration long et difficile.Aussi des fois les nouveaux immigrants ne save pas tous démarches administratives à faire . On decide de faire une application simple et accessible avec temps de développement limité et équipe reduite.Ou on vois Simplicité d’utilisation, centraliosation de l'inforamation, réduction du stresse pour les nouveaux immigrants, éviter d'avoir des informations incomplètes ou non à jours
+- **Contexte :** **Les nouveaux immigrants au Canada font face à des démarches administratives et logistiques complexes, comme obtenir le NAS, la carte de transport,et aussi l'ouverture de compte bancaire et la recherche de logement. Les informations sont réparties sur plusieurs plateformes, ce qui rend le processus d’intégration long et difficile.Aussi des fois les nouveaux immigrants ne save pas tous les démarches administratives à faire .C'est pour cela on a decide de faire une application simple et accessible avec temps de développement limité et équipe reduite.
 
 - **Objectif principal :** Nous avons décidé de développer une application centralisée appelée CanadaWelcome
 Nous choisissons une application unique regroupant les services essentiels à l’intégration des nouveaux immigrants.
-Pour faciliter, structurer et accélérer leur intégration à la société canadienne.
+Pour faciliter, structurer et accélérer leur intégration à la société canadienne et pour la réduction du stresse pour les nouveaux immigrants, éviter d'avoir des informations incomplètes ou non à jours
 - **Parties prenantes :** <utilisateurs, client, admin, etc.>
 
 ---
