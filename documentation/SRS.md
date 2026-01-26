@@ -6,14 +6,14 @@
 ---
 
 ## 1. Contexte & objectif
-- **Contexte :** Les nouveaux immigrants au Canada font face à des démarches administratives et logistiques complexes, comme obtenir le NAS, la carte de transport,et aussi l'ouverture de compte bancaire et la recherche de logement. Les informations sont réparties sur plusieurs plateformes, ce qui rend le processus d’intégration long et difficile.Aussi des fois les nouveaux immigrants ne save pas tous les démarches administratives à faire .C'est pour cela on a decide de faire une application simple et accessible avec temps de développement limité et équipe reduite.
+- **Contexte :** Les nouveaux immigrants au Canada font face à des démarches administratives et logistiques complexes, comme obtenir le NAS, la carte de transport,et aussi l'ouverture de compte bancaire et la recherche de logement. Les informations sont réparties sur plusieurs plateformes, ce qui rend le processus d’intégration long et difficile.Aussi des fois les nouveaux immigrants ne save pas tous les démarches administratives à faire .C'est pour cela on a decide de faire une application simple et accessible.
 
 - **Objectif principal :** Nous avons décidé de développer une application centralisée appelée CanadaWelcome
 Nous choisissons une application unique regroupant les services essentiels à l’intégration des nouveaux immigrants.
-Pour faciliter, structurer et accélérer leur intégration à la société canadienne et pour la réduction du stresse pour les nouveaux immigrants, éviter d'avoir des informations incomplètes ou non à jours
+Pour faciliter, structurer et accélérer leur intégration à la société canadienne et pour la réduction du stresse pour les nouveaux immigrants et éviter d'avoir des informations incomplètes ou non à jours
 - **Parties prenantes :**
 - Utilisateurs :Nouveaux immigrants au Canada qui utilisent l’application pour s’intégrer (NAS, logement, transport, banque, etc)
-- Client :Immigration IRRC(Immigration, réfugiés et citoyenneté Canada
+- Client :Gouvernement Canada avec Immigration IRRC(Immigration, réfugiés et citoyenneté Canada)
 - Product Owner
 - scrum master
 - Equipe de developpeurs(Progammeurs. designers)
@@ -52,7 +52,7 @@ OUT-5 : Support client en temps réel chat ou appel
 ---
 
 ## 4. Exigences fonctionnelles (FR)
-- **FR-1 :** Le système doit aider guider les nouveaux immigrants dans les démarches administratives (NAS, carte de transport, compte bancaire).
+- **FR-1 :** Le système doit aider et guider les nouveaux immigrants dans les démarches administratives (NAS, carte de transport, compte bancaire).
 - **FR-2 :** Le système doit afficher des informations sur les options de logement selon la ville et le budget.
 - **FR-3 :** Le système doit afficher les informations selon le statut de l’immigrant (étudiant, travailleur).
 -  **FR-4 :** Le système doit centraliser toutes les informations essentielles dans une seule application.
@@ -81,11 +81,11 @@ OUT-5 : Support client en temps réel chat ou appel
 
 - **Entités principales :** <User, Order, ...>
 
-  -Utilisateurs(Nouveau Immigrant): numéro de passeport, nom, prénom, statut d'immigration( étudiant, travailleur, resident permanent), province de résidence, adresse e-mail, langue préférée.
+  -Utilisateurs(Nouveau Immigrant): numéro de passeport, nom, prénom, statut d'immigration( étudiant, travailleur), province de résidence, adresse e-mail, langue préférée.
 
   -données de connexion: numero d'utilisateur, numero passport, mot de passe.
 
-  -progression d'Integration : oui ou non possède le Nas, carte de Transport, carte bancaire, carte de santé
+  -progression d'Integration : oui ou non possède le Nas, carte de Transport, carte bancaire
 
   -données de logement: dimensions de l'appartement, adresse de l'appartement, prix.
 
@@ -110,20 +110,19 @@ OUT-5 : Support client en temps réel chat ou appel
 
 ## 8. Hypothèses & dépendances
 ### 8.1 Hypothèses
-H-1 : Les utilisateurs possèdent un smartphone Android et savent l’utiliser.
+H-1 : Les utilisateurs possèdent un smartphone ou Ordinateur et savent l’utiliser.
 H-2 : Les utilisateurs disposent d’un accès à Internet.
 H-3 : Les informations fournies par les sites gouvernementaux canadiens sont accessibles au public.
-H-4 : Les utilisateurs comprennent le français (langue principale de l’application).
+H-4 : Les utilisateurs comprennent le français ou l'englais .
 H-5 : Les utilisateurs sont des nouveaux immigrants ou des personnes récemment arrives au Canada
 
 ### 8.2 Dépendances
 D-1 : Sites officiels du gouvernement du Canada (NAS, transport, services publics).
 D-2 : API ou plateformes externes pour les informations sur le logement.
-D-3 : Base de données (Room ou Firebase) pour stocker les données utilisateurs.
-D-4 : Environnement Android Studio pour le développement de l’application.
+D-3 : Base de données pour stocker les données utilisateurs.
+D-4 : Environnement visual studio pour le développement de l’application.
 D-5 : Connexion Internet pour accéder aux données externes.
 
----
 
 ## 9. Critères d’acceptation globaux (Definition of Done – mini)
 - [ ] Fonctionnalités livrées et testées
