@@ -33,13 +33,13 @@ Pour faciliter, structurer et accélérer leur intégration à la société cana
 
 ## 3. Acteurs / profils utilisateurs
 - **Acteur A :** Nouvel immigrant
-Rôle : Utilise l’application pour s’intégrer au Canada
-Besoins : Informations claires sur le NAS, le logement, la carte de transport et le compte bancaire
-Contraintes : Peu d’expérience avec les démarches canadiennes, stress, manque de temps
+- Rôle : Utilise l’application pour s’intégrer au Canada
+- Besoins : Informations claires sur le NAS, le logement, la carte de transport et le compte bancaire
+- Contraintes : Peu d’expérience avec les démarches canadiennes, stress, manque de temps
 - **Acteur B :** Administrateur 
 - Rôle : Gère et met à jour le contenu de l’application
-Besoins : Interface simple pour modifier les informations
-Contraintes : Doit maintenir les données à jour
+- Besoins : Interface simple pour modifier les informations
+- Contraintes : Doit maintenir les données à jour
 
 ---
 
