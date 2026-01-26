@@ -11,7 +11,12 @@
 - **Objectif principal :** Nous avons décidé de développer une application centralisée appelée CanadaWelcome
 Nous choisissons une application unique regroupant les services essentiels à l’intégration des nouveaux immigrants.
 Pour faciliter, structurer et accélérer leur intégration à la société canadienne et pour la réduction du stresse pour les nouveaux immigrants, éviter d'avoir des informations incomplètes ou non à jours
-- **Parties prenantes :** <utilisateurs, client, admin, etc.>
+- **Parties prenantes :**
+- Utilisateurs :Nouveaux immigrants au Canada qui utilisent l’application pour s’intégrer (NAS, logement, transport, banque, etc)
+- 
+- 
+- 
+- 
 
 ---
 
@@ -27,8 +32,14 @@ Pour faciliter, structurer et accélérer leur intégration à la société cana
 ---
 
 ## 3. Acteurs / profils utilisateurs
-- **Acteur A :** <rôle, besoins, contraintes>
-- **Acteur B :** <...>
+- **Acteur A :** Nouvel immigrant
+Rôle : Utilise l’application pour s’intégrer au Canada
+Besoins : Informations claires sur le NAS, le logement, la carte de transport et le compte bancaire
+Contraintes : Peu d’expérience avec les démarches canadiennes, stress, manque de temps
+- **Acteur B :** Administrateur 
+- Rôle : Gère et met à jour le contenu de l’application
+Besoins : Interface simple pour modifier les informations
+Contraintes : Doit maintenir les données à jour
 
 ---
 
