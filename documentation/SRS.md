@@ -1,4 +1,4 @@
-# Cahier des charges (SRS léger) — <Nom du projet>
+# Cahier des charges (SRS léger) — <Welcome Canada>
 **Équipe :** Hajar Chobani, Rayane Achoukairi ,Ibrahim Moriba Camara
 **Date :** <2026-01-25>  
 **Version :** <v0.1 / v1.0>
@@ -52,11 +52,16 @@ OUT-5 : Support client en temps réel chat ou appel
 ---
 
 ## 4. Exigences fonctionnelles (FR)
-- **FR-1 :** Le système doit aider et guider les nouveaux immigrants dans les démarches administratives (NAS, carte de transport, compte bancaire).
-- **FR-2 :** Le système doit afficher des informations sur les options de logement selon la ville et le budget.
-- **FR-3 :** Le système doit afficher les informations selon le statut de l’immigrant (étudiant, travailleur).
--  **FR-4 :** Le système doit centraliser toutes les informations essentielles dans une seule application.
-- **FR-5 :** Le système doit offrir une interface simple et facile à utiliser.
+- **FR-1 :** Le systeme doit permet la connexion pour le client 
+- **FR-2 :** Le systeme doit permet l'inscription pour les nouveaux clients avec adresse email unique
+- **FR-3 :** Le système doit empêcher la création de comptes avec email déjà existant.
+- **FR-4 :** Le systeme doit afficher la liste de démarches avec les étapes, documments nessecaires et liens officiels
+- **FR-5 :** Le systeme doit affichées Les démarches selon le statut de l'emigrant (étudiant / travailleur)
+- **FR-6 :** Le système doit afficher des informations sur les options de logement selon la ville et le budget.
+- **FR-7 :** Le systeme doit afficher les offres de chaque banque (offres etudiants, carte credit, offres pour nouveaux clients)
+- **FR-8 :** L'utilisateurdoit pouvoir marquer une démarche comme : A faire, en cours, terminer.
+- **FR-9 :** L'administrateur peut ajouter un guide
+- **FR-10 :** l'administrateur peut modifier ou suprimer un guide
 
 ---
 
@@ -110,11 +115,10 @@ OUT-5 : Support client en temps réel chat ou appel
 
 ## 8. Hypothèses & dépendances
 ### 8.1 Hypothèses
-H-1 : Les utilisateurs possèdent un smartphone ou un ordinateur et savent l’utiliser.
-H-2 : Les utilisateurs disposent d’un accès à Internet.
-H-3 : Les informations fournies par les sites gouvernementaux canadiens sont accessibles au public.
-H-4 : Les utilisateurs comprennent le français ou l'anglais.
-H-5 : Les utilisateurs sont des nouveaux immigrants ou des personnes récemment arrivés au Canada
+H-1 : Les utilisateurs disposent d’un accès à Internet.
+H-2 : Les informations fournies par les sites gouvernementaux canadiens sont accessibles au public.
+H-3 : Les utilisateurs comprennent le français.
+H-4 : Les utilisateurs sont des nouveaux immigrants ou des personnes récemment arrivés au Canada
 
 ### 8.2 Dépendances
 D-1 : Sites officiels du gouvernement du Canada (NAS, transport, services publics).
