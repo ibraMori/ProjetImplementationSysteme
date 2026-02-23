@@ -44,6 +44,9 @@ Together, they provide a clear, professional, and maintainable documentation fra
 - [SRS.md](documentation/SRS.md)
 - [ADR.md](documentation/ADR.md)
 - [Methode Agile Asana](https://app.asana.com/1/1213020052577483/project/1213318108160994/list/1213318237113192)
+- [diagramme des composants](documentation/)
+- [diagramme des cas d'utilisation](documentation/diagrammeCasUtilisations.png)
+- [diagramme des cas d'utilisation](documentation/diagrammeDeClasses.png)
 
 ## Students tasks
 - [ ] Complete the `student_readmefile.md` file.
