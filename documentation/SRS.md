@@ -59,7 +59,7 @@ OUT-5 : Support client en temps réel chat ou appel
 - **FR-5 :** Le systeme doit affichées Les démarches selon le statut de l'emigrant (étudiant / travailleur)
 - **FR-6 :** Le système doit afficher des informations sur les options de logement selon la ville et le budget.
 - **FR-7 :** Le systeme doit afficher les offres de chaque banque (offres etudiants, carte credit, offres pour nouveaux clients)
-- **FR-8 :** L'utilisateurdoit pouvoir marquer une démarche comme : A faire, en cours, terminer.
+- **FR-8 :** L'utilisateur doit pouvoir marquer une démarche comme : A faire, en cours, terminer.
 - **FR-9 :** L'administrateur peut ajouter un guide
 - **FR-10 :** l'administrateur peut modifier ou suprimer un guide
 
