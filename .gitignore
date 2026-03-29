@@ -1,0 +1,33 @@
+# Build results
+bin/
+obj/
+
+# Visual Studio files
+.vs/
+*.user
+*.suo
+*.cache
+*.log
+
+# Rider / VS Code (optional)
+.idea/
+.vscode/
+
+# NuGet packages
+*.nupkg
+packages/
+
+# Publish output (optional)
+publish/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+*.tmp
+*.temp
