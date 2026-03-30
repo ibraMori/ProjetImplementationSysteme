@@ -47,6 +47,7 @@ Together, they provide a clear, professional, and maintainable documentation fra
 - [diagramme des composants](documentation/ComponentIntegImm.drawio.png)
 - [diagramme des cas d'utilisation](documentation/diagrammeCasUtilisations.png)
 - [diagramme des classes](documentation/diagrammeDeClasses.png)
+- [rapport]()
 
 ## How to Run
 Option 1 — Visual Studio (Recommended)
