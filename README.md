@@ -48,6 +48,15 @@ Together, they provide a clear, professional, and maintainable documentation fra
 - [diagramme des cas d'utilisation](documentation/diagrammeCasUtilisations.png)
 - [diagramme des classes](documentation/diagrammeDeClasses.png)
 
+## How to run
+
+1. Install .NET
+2. Go to executable/welcomeCanada
+3. Run:
+   dotnet welcomeCanada.dll
+4. Open browser at:
+   http://localhost:5000
+
 ## Students tasks
 - [ ] Complete the `student_readmefile.md` file.
 - [ ] Use the template file `SRS.md` to create your own SRS.
