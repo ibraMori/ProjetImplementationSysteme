@@ -48,15 +48,36 @@ Together, they provide a clear, professional, and maintainable documentation fra
 - [diagramme des cas d'utilisation](documentation/diagrammeCasUtilisations.png)
 - [diagramme des classes](documentation/diagrammeDeClasses.png)
 
-## How to run
+## How to Run
+Option 1 — Visual Studio (Recommended)
+Open the solution file located in /code using Visual Studio
+Press F5 or click Start
+The application will launch automatically in your browser
+Option 2 — IIS (Executable Version)
+Enable IIS:
+Go to Control Panel → Programs → Turn Windows features on or off
+Enable:
+Internet Information Services
+ASP.NET
+.NET Extensibility
+Open IIS Manager
+Add a new website:
+Site name: welcomeCanada
 
-1. Install .NET
-2. Go to executable/welcomeCanada
-3. Run:
-   dotnet welcomeCanada.dll
-4. Open browser at:
-   http://localhost:5000
+Physical path:
 
+executable/welcomeCanada
+Configure Application Pool:
+.NET CLR Version: v4.0
+Managed pipeline: Integrated
+
+Run the application in your browser:
+
+http://localhost
+
+or directly:
+
+http://localhost/pageConexion.aspx
 ## Students tasks
 - [ ] Complete the `student_readmefile.md` file.
 - [ ] Use the template file `SRS.md` to create your own SRS.
