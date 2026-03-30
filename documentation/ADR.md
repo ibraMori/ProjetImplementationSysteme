@@ -1,4 +1,4 @@
-# Architecture Decision Records ADR-<NN> — <Titre de la décision>
+# Architecture Decision Records ADR-<NN> — <Choix d’une application Web centralisée pour CanadaWelcome>
 **Statut :** Proposed 
 **Date :** <2026-01-25>  
 **Décideurs :** <Hajar Chobani, Rayane Achoukairi ,Ibrahim Moriba Camara >  
@@ -62,22 +62,22 @@ Dépendance à une base de données
 Nécessite plus de logique backend qu’un simple site informatif
 
 ### Impact sur l’architecture / le code
-- Cette décision implique :
+_Cette décision implique :
 
-la création d’un module Authentification
-la gestion d’une base de données MySQL
-la création des entités principales :
+.la création d’un module Authentification
+.la gestion d’une base de données MySQL
+_la création des entités principales :
 Utilisateur
 Admin
 Guide
 Logement
 Progression
-l’organisation du projet en couches :
+_l’organisation du projet en couches :
 interface utilisateur
 logique métier
 accès aux données
 
-Elle influence aussi l’usage de certains patrons de conception
+_Elle influence aussi l’usage de certains patrons de conception
 
 ---
 
@@ -95,18 +95,18 @@ Elle influence aussi l’usage de certains patrons de conception
 - **Comment vérifier que c’est bon ?**
 La décision sera considérée comme valide si :
 
-l’utilisateur peut s’inscrire et se connecter
-l’utilisateur peut consulter les guides
-l’utilisateur peut rechercher un logement
-l’administrateur peut ajouter, modifier ou supprimer un guide
-les données sont bien enregistrées dans la base de données
-l’application reste simple à utiliser
+_l’utilisateur peut s’inscrire et se connecter
+_l’utilisateur peut consulter les guides
+_l’utilisateur peut rechercher un logement
+_l’administrateur peut ajouter, modifier ou supprimer un guide
+_les données sont bien enregistrées dans la base de données
+_l’application reste simple à utiliser
 
 Critères d’acceptation :
-Temps de réponse acceptable
-Interface claire
-Fonctionnalités principales fonctionnelles
-Prototype exécutable disponible
+_Temps de réponse acceptable
+_Interface claire
+_Fonctionnalités principales fonctionnelles
+_Prototype exécutable disponible
 
 ## 8. Liens
 - UML : <Diagramme de cas d’utilisation, diagramme de classes>
