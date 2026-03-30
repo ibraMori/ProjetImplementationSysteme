@@ -4,14 +4,32 @@ namespace welcomeCanada.Database
 {
     public class ConnexionDB
     {
-        private static ConnexionDB instance = null;
-        private readonly SqlConnection connection;
+        private static ConnexionDB instance;
+        private static readonly object lockObj = new object();
 
-        private ConnexionDB()
+        private string connectionString =
+            @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=welcomeCanDB;Integrated Security=True";
+
+        private ConnexionDB() { }
+
+        public static ConnexionDB Instance
         {
-            string connectionString = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=welcomeCanadaDB;Integrated Security=True";
-            connection = new SqlConnection(connectionString);
-            connection.Open();
+            get
+            {
+                lock (lockObj)
+                {
+                    if (instance == null)
+                        instance = new ConnexionDB();
+                    return instance;
+                }
+            }
+        }
+
+        public SqlConnection GetConnection()
+        {
+            var conn = new SqlConnection(connectionString);
+            conn.Open();
+            return conn;
         }
     }
 }

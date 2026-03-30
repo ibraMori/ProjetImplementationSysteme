@@ -1,8 +1,12 @@
-# Build results
-bin/
-obj/
+# =========================
+# Visual Studio / .NET
+# =========================
 
-# Visual Studio files
+# Ignore build output ONLY inside code folder
+code/**/bin/
+code/**/obj/
+
+# Visual Studio cache / temp
 .vs/
 *.user
 *.suo
@@ -13,21 +17,41 @@ obj/
 .idea/
 .vscode/
 
-# NuGet packages
+# =========================
+# NuGet
+# =========================
 *.nupkg
 packages/
 
-# Publish output (optional)
-publish/
-
+# =========================
 # OS files
+# =========================
 .DS_Store
 Thumbs.db
 
-# Logs
+# =========================
+# Logs / temp
+# =========================
 logs/
 *.log
-
-# Temporary files
 *.tmp
 *.temp
+
+# =========================
+# Node (if ever used)
+# =========================
+node_modules/
+
+# =========================
+# IMPORTANT: keep executable
+# =========================
+
+# DO NOT ignore executable folder
+!executable/
+!executable/welcomeCanada/
+!executable/welcomeCanada/bin/
+
+# =========================
+# Optional: publish folders
+# =========================
+publish/

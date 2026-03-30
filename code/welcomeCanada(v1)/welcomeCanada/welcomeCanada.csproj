@@ -115,22 +115,55 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="pageConexion.aspx" />
+    <Content Include="Home.aspx" />
+    <Content Include="index.aspx" />
+    <Content Include="PageConnexion.aspx" />
+    <Content Include="PageInscription.aspx" />
     <Content Include="Web.config" />
+    <Content Include="pageLogement.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Database\ConnexionDB.cs" />
-    <Compile Include="Models\Utilisateur.cs" />
-    <Compile Include="pageConexion.aspx.cs">
-      <DependentUpon>pageConexion.aspx</DependentUpon>
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="pageConexion.aspx.designer.cs">
-      <DependentUpon>pageConexion.aspx</DependentUpon>
+    <Compile Include="Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Utilisateur.cs" />
+    <Compile Include="PageConnexion.aspx.cs">
+      <DependentUpon>PageConnexion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PageConnexion.aspx.designer.cs">
+      <DependentUpon>PageConnexion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PageInscription.aspx.cs">
+      <DependentUpon>PageInscription.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PageInscription.aspx.designer.cs">
+      <DependentUpon>PageInscription.aspx</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\AuthService.cs" />
+    <Compile Include="pageLogement.aspx.cs">
+      <DependentUpon>pageLogement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pageLogement.aspx.designer.cs">
+      <DependentUpon>pageLogement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Services\FindHousingService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -143,6 +176,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Images\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

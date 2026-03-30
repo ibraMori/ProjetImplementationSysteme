@@ -1,27 +1,35 @@
 ﻿using System;
+using System.Data;
 using welcomeCanada.Models;
 using welcomeCanada.Services;
 
-namespace welcomeCanada
+class Program
 {
-    class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
+        AuthService auth = new AuthService();
+        FindHousingService logementService = new FindHousingService();
+
+        Console.WriteLine("=== INSCRIPTION ===");
+        Console.WriteLine(auth.Inscrire(
+            TypeUtilisateur.Etudiant,
+            "Test",
+            "User",
+            "test@test.com",
+            "1234"));
+
+        Console.WriteLine("=== CONNEXION ===");
+        Console.WriteLine(auth.Connexion("test@test.com", "1234") ? "OK" : "FAIL");
+
+        Console.WriteLine("\n=== LOGEMENTS ===");
+
+        DataTable logements = logementService.GetAllLogements();
+
+        foreach (DataRow row in logements.Rows)
         {
-            AuthService auth = new AuthService();
-
-            Console.WriteLine("=== Test Inscription ===");
-            string result = auth.Inscrire(TypeUtilisateur.Etudiant, "Hajar", "Chonani", "hajar@test.com", "12345");
-            Console.WriteLine(result);
-
-            Console.WriteLine("=== Test Connexion ===");
-            bool ok = auth.Connexion("hajar@test.com", "12345");
-            Console.WriteLine(ok ? "Connexion réussie" : "Connexion échouée");
-
-            auth.Fermer();
-
-            Console.WriteLine("Appuyez sur une touche pour quitter...");
-            Console.ReadKey();
+            Console.WriteLine($"{row["Titre"]} - {row["Ville"]} - {row["Prix"]}$");
         }
+
+        Console.ReadKey();
     }
 }
