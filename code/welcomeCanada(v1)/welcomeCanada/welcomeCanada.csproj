@@ -138,6 +138,11 @@
     <Compile Include="index.aspx.designer.cs">
       <DependentUpon>index.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Models\Admin.cs" />
+    <Compile Include="Models\Etudiant.cs" />
+    <Compile Include="Models\Guide.cs" />
+    <Compile Include="Models\Logement.cs" />
+    <Compile Include="Models\Travailleur.cs" />
     <Compile Include="Models\Utilisateur.cs" />
     <Compile Include="PageConnexion.aspx.cs">
       <DependentUpon>PageConnexion.aspx</DependentUpon>
