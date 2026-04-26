@@ -164,6 +164,7 @@
       <DependentUpon>pageLogement.aspx</DependentUpon>
     </Compile>
     <Compile Include="Services\FindHousingService.cs" />
+    <Compile Include="TestCalculation.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
