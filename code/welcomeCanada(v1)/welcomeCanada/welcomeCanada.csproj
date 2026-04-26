@@ -115,10 +115,83 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\WelcomeCanada.ldf">
+      <DependentUpon>WelcomeCanada.mdf</DependentUpon>
+    </Content>
+    <Content Include="App_Data\WelcomeCanada.mdf" />
+    <Content Include="App_Data\welcomeCanadaDB.ldf">
+      <DependentUpon>welcomeCanadaDB.mdf</DependentUpon>
+    </Content>
+    <Content Include="App_Data\welcomeCanadaDB.mdf" />
     <Content Include="Home.aspx" />
     <Content Include="index.aspx" />
+    <Content Include="pageConexion.aspx" />
     <Content Include="PageConnexion.aspx" />
     <Content Include="PageInscription.aspx" />
+    <Content Include="publish\welcomeCanada\bin\BouncyCastle.Cryptography.dll" />
+    <Content Include="publish\welcomeCanada\bin\Google.Protobuf.dll" />
+    <Content Include="publish\welcomeCanada\bin\Google.Protobuf.pdb" />
+    <Content Include="publish\welcomeCanada\bin\K4os.Compression.LZ4.dll" />
+    <Content Include="publish\welcomeCanada\bin\K4os.Compression.LZ4.Streams.dll" />
+    <Content Include="publish\welcomeCanada\bin\K4os.Hash.xxHash.dll" />
+    <Content Include="publish\welcomeCanada\bin\Microsoft.Bcl.AsyncInterfaces.dll" />
+    <Content Include="publish\welcomeCanada\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll" />
+    <Content Include="publish\welcomeCanada\bin\MySql.Data.dll" />
+    <Content Include="publish\welcomeCanada\bin\roslyn\csc.exe" />
+    <Content Include="publish\welcomeCanada\bin\roslyn\csi.exe" />
+    <Content Include="publish\welcomeCanada\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll" />
+    <Content Include="publish\welcomeCanada\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll" />
+    <Content Include="publish\welcomeCanada\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll" />
+    <Content Include="publish\welcomeCanada\bin\roslyn\Microsoft.CodeAnalysis.dll" />
+    <Content Include="publish\welcomeCanada\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll" />
+    <Content Include="publish\welcomeCanada\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll" />
+    <Content Include="publish\welcomeCanada\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll" />
+    <Content Include="publish\welcomeCanada\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll" />
+    <Content Include="publish\welcomeCanada\bin\roslyn\Microsoft.Win32.Primitives.dll" />
+    <Content Include="publish\welcomeCanada\bin\roslyn\System.AppContext.dll" />
+    <Content Include="publish\welcomeCanada\bin\roslyn\System.Collections.Immutable.dll" />
+    <Content Include="publish\welcomeCanada\bin\roslyn\System.Console.dll" />
+    <Content Include="publish\welcomeCanada\bin\roslyn\System.Diagnostics.DiagnosticSource.dll" />
+    <Content Include="publish\welcomeCanada\bin\roslyn\System.Diagnostics.FileVersionInfo.dll" />
+    <Content Include="publish\welcomeCanada\bin\roslyn\System.Diagnostics.StackTrace.dll" />
+    <Content Include="publish\welcomeCanada\bin\roslyn\System.Globalization.Calendars.dll" />
+    <Content Include="publish\welcomeCanada\bin\roslyn\System.IO.Compression.dll" />
+    <Content Include="publish\welcomeCanada\bin\roslyn\System.IO.Compression.ZipFile.dll" />
+    <Content Include="publish\welcomeCanada\bin\roslyn\System.IO.FileSystem.dll" />
+    <Content Include="publish\welcomeCanada\bin\roslyn\System.IO.FileSystem.Primitives.dll" />
+    <Content Include="publish\welcomeCanada\bin\roslyn\System.Net.Http.dll" />
+    <Content Include="publish\welcomeCanada\bin\roslyn\System.Net.Sockets.dll" />
+    <Content Include="publish\welcomeCanada\bin\roslyn\System.Reflection.Metadata.dll" />
+    <Content Include="publish\welcomeCanada\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll" />
+    <Content Include="publish\welcomeCanada\bin\roslyn\System.Security.Cryptography.Algorithms.dll" />
+    <Content Include="publish\welcomeCanada\bin\roslyn\System.Security.Cryptography.Encoding.dll" />
+    <Content Include="publish\welcomeCanada\bin\roslyn\System.Security.Cryptography.Primitives.dll" />
+    <Content Include="publish\welcomeCanada\bin\roslyn\System.Security.Cryptography.X509Certificates.dll" />
+    <Content Include="publish\welcomeCanada\bin\roslyn\System.Text.Encoding.CodePages.dll" />
+    <Content Include="publish\welcomeCanada\bin\roslyn\System.Threading.Tasks.Extensions.dll" />
+    <Content Include="publish\welcomeCanada\bin\roslyn\System.ValueTuple.dll" />
+    <Content Include="publish\welcomeCanada\bin\roslyn\System.Xml.ReaderWriter.dll" />
+    <Content Include="publish\welcomeCanada\bin\roslyn\System.Xml.XmlDocument.dll" />
+    <Content Include="publish\welcomeCanada\bin\roslyn\System.Xml.XPath.dll" />
+    <Content Include="publish\welcomeCanada\bin\roslyn\System.Xml.XPath.XDocument.dll" />
+    <Content Include="publish\welcomeCanada\bin\roslyn\vbc.exe" />
+    <Content Include="publish\welcomeCanada\bin\roslyn\VBCSCompiler.exe" />
+    <Content Include="publish\welcomeCanada\bin\System.Buffers.dll" />
+    <Content Include="publish\welcomeCanada\bin\System.Configuration.ConfigurationManager.dll" />
+    <Content Include="publish\welcomeCanada\bin\System.IO.Pipelines.dll" />
+    <Content Include="publish\welcomeCanada\bin\System.Memory.dll" />
+    <Content Include="publish\welcomeCanada\bin\System.Numerics.Vectors.dll" />
+    <Content Include="publish\welcomeCanada\bin\System.Runtime.CompilerServices.Unsafe.dll" />
+    <Content Include="publish\welcomeCanada\bin\System.Threading.Tasks.Extensions.dll" />
+    <Content Include="publish\welcomeCanada\bin\welcomeCanada.dll" />
+    <Content Include="publish\welcomeCanada\bin\welcomeCanada.pdb" />
+    <Content Include="publish\welcomeCanada\bin\ZstdSharp.dll" />
+    <Content Include="publish\welcomeCanada\Home.aspx" />
+    <Content Include="publish\welcomeCanada\index.aspx" />
+    <Content Include="publish\welcomeCanada\pageConexion.aspx" />
+    <Content Include="publish\welcomeCanada\PageConnexion.aspx" />
+    <Content Include="publish\welcomeCanada\PageInscription.aspx" />
+    <Content Include="publish\welcomeCanada\pageLogement.aspx" />
     <Content Include="Web.config" />
     <Content Include="pageLogement.aspx" />
   </ItemGroup>
@@ -144,6 +217,13 @@
     <Compile Include="Models\Logement.cs" />
     <Compile Include="Models\Travailleur.cs" />
     <Compile Include="Models\Utilisateur.cs" />
+    <Compile Include="pageConexion.aspx.cs">
+      <DependentUpon>pageConexion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pageConexion.aspx.designer.cs">
+      <DependentUpon>pageConexion.aspx</DependentUpon>
+    </Compile>
     <Compile Include="PageConnexion.aspx.cs">
       <DependentUpon>PageConnexion.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -173,6 +253,17 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <Content Include="publish\welcomeCanada\bin\roslyn\csc.exe.config" />
+    <Content Include="publish\welcomeCanada\bin\roslyn\csc.rsp" />
+    <Content Include="publish\welcomeCanada\bin\roslyn\csi.exe.config" />
+    <Content Include="publish\welcomeCanada\bin\roslyn\csi.rsp" />
+    <Content Include="publish\welcomeCanada\bin\roslyn\Microsoft.CSharp.Core.targets" />
+    <Content Include="publish\welcomeCanada\bin\roslyn\Microsoft.Managed.Core.targets" />
+    <Content Include="publish\welcomeCanada\bin\roslyn\Microsoft.VisualBasic.Core.targets" />
+    <Content Include="publish\welcomeCanada\bin\roslyn\vbc.exe.config" />
+    <Content Include="publish\welcomeCanada\bin\roslyn\vbc.rsp" />
+    <Content Include="publish\welcomeCanada\bin\roslyn\VBCSCompiler.exe.config" />
+    <Content Include="publish\welcomeCanada\Web.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -181,7 +272,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Data\" />
     <Folder Include="Images\" />
   </ItemGroup>
   <PropertyGroup>

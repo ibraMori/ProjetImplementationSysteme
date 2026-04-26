@@ -8,7 +8,7 @@ namespace welcomeCanada.Database
         private static readonly object lockObj = new object();
 
         private string connectionString =
-            @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=welcomeCanDB;Integrated Security=True";
+            @"Data Source=(localdb)\MSSQLLocalDB;AttachDbFilename=C:\Users\ibrah\ProjetImplementationSysteme\code\welcomeCanada(v1)\welcomeCanada\App_Data\welcomeCanadaDB.mdf;Initial Catalog=welcomeCanadaFinalDB;Integrated Security=True";
 
         private ConnexionDB() { }
 
