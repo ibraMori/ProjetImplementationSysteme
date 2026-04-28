@@ -49,36 +49,119 @@ Together, they provide a clear, professional, and maintainable documentation fra
 - [diagramme des classes](documentation/diagrammeDeClasses.png)
 - [rapport](documentation/RAPPORT%201.docx)
 
-## How to Run
-Option 1 — Visual Studio (Recommended)
-Open the solution file located in /code using Visual Studio
+How to Run
+Prerequisites
+
+Before running the project, ensure the following are installed:
+
+Windows OS
+Visual Studio (recommended)
+SQL Server LocalDB
+IIS (for running the published version)
+.NET Framework 4.x
+Database Configuration
+
+The application relies on a SQL Server database.
+
+1. Database Setup
+Open SQL Server Object Explorer in Visual Studio
+Locate or attach the database:
+welcomeCanDB
+2. Required Tables
+
+The database already contains the necessary tables:
+
+Utilisateurs
+Guide
+Logements
+Admin
+3. Connection String
+
+Verify the connection string in Web.config:
+
+<connectionStrings>
+  <add name="DefaultConnection"
+       connectionString="Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=welcomeCanDB;Integrated Security=True"
+       providerName="System.Data.SqlClient" />
+</connectionStrings>
+
+Make sure the database name matches your local configuration.
+
+Test Data
+
+The local database already includes sample users and an administrator account.
+
+You can use these credentials directly to test the application.
+
+Administrator
+AdminId: 1234
+Password: 1234
+Sample Users
+ahmed@gmail.com / (hashed password)
+marc@gmail.com / marc
+hajar@test.com / 2006
+koukoussa@test.com / 2000
+yuji@gmail.com / yuji
+gojo@gmail.com / gojo
+
+Note:
+
+Some passwords are stored as hashed values
+Others are plain text for testing purposes
+Option 1 — Run with Visual Studio (Recommended)
+Open the solution file located in the /code directory
+Ensure the database is correctly configured and accessible
 Press F5 or click Start
 The application will launch automatically in your browser
-Option 2 — IIS (Executable Version)
-Enable IIS:
-Go to Control Panel → Programs → Turn Windows features on or off
-Enable:
+
+Access the login page:
+
+/PageConnexion.aspx
+Option 2 — Run with IIS (Published Version)
+1. Enable IIS
+
+Go to:
+
+Control Panel → Programs → Turn Windows features on or off
+
+Enable the following:
+
 Internet Information Services
 ASP.NET
 .NET Extensibility
-Open IIS Manager
-Add a new website:
+2. Configure Website
+
+Open IIS Manager and add a new website:
+
 Site name: welcomeCanada
-
-Physical path:
-
-executable/welcomeCanada
-Configure Application Pool:
+Physical path: executable/welcomeCanada
+3. Configure Application Pool
 .NET CLR Version: v4.0
-Managed pipeline: Integrated
+Managed Pipeline Mode: Integrated
+4. Run the Application
 
-Run the application in your browser:
+Open your browser and navigate to:
 
 http://localhost
 
 or directly:
 
-http://localhost/pageConexion.aspx
+http://localhost/PageConnexion.aspx
+Troubleshooting
+
+If the application does not run correctly, verify the following:
+
+The database is properly attached
+The connection string in Web.config is correct
+SQL Server LocalDB is running
+Required tables exist in the database
+IIS has access permissions to the project folder
+Features to Test
+User authentication (Student / Worker)
+Guide filtering based on user type (Observer Pattern)
+Home page state transitions (State Pattern)
+Admin functionalities (guide management, user filtering)
+Housing search functionality
 ## Students tasks
 - [ ] Complete the `student_readmefile.md` file.
 - [ ] Use the template file `SRS.md` to create your own SRS.
