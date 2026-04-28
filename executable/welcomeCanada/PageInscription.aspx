@@ -7,18 +7,101 @@
     <title>Inscription</title>
 
     <style>
-        body { font-family: Arial; display:flex; justify-content:center; align-items:center; height:100vh; background:#f5f5f5;}
-        .container { background:white; padding:30px; border-radius:10px; width:350px; }
-        input, select { width:100%; padding:10px; margin:8px 0; }
-        .btn { background:#0078D4; color:white; padding:10px; border:none; width:100%; }
-        .message { color:red; text-align:center; }
+
+        body {
+            font-family: Arial;
+            background: #f5f5f5;
+            height: 100vh;
+            margin: 0;
+        }
+
+        /* LOGO TOP LEFT */
+        .logo {
+            position: absolute;
+            top: 15px;
+            left: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .logo img {
+            width: 60px;
+            height: 60px;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+        }
+
+        .logo span {
+            font-size: 18px;
+            font-weight: bold;
+            color: #1a3d6f;
+        }
+
+        /* FORM */
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .box {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            width: 350px;
+            box-shadow: 0 0 10px #ccc;
+            text-align: center;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+        }
+
+        .btn {
+            background: #0078D4;
+            color: white;
+            padding: 10px;
+            border: none;
+            width: 100%;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background: #005a9e;
+        }
+
+        .message {
+            color: red;
+            text-align: center;
+        }
+
+        a {
+            display: block;
+            margin-top: 10px;
+            color: #0078D4;
+            text-decoration: none;
+        }
+
     </style>
 </head>
 
 <body>
 
-    <form runat="server">
-        <div class="container">
+<!-- LOGO -->
+<div class="logo">
+    <img src="images/canada-logo.png" />
+    <span>Welcome Canada</span>
+</div>
+
+<form runat="server">
+
+    <div class="container">
+
+        <div class="box">
 
             <h2>Inscription</h2>
 
@@ -39,12 +122,13 @@
                 CssClass="btn"
                 OnClick="BtnInscrire_Click" />
 
-            <br /><br />
-
             <a href="PageConnexion.aspx">Déjà inscrit ? Connexion</a>
 
         </div>
-    </form>
+
+    </div>
+
+</form>
 
 </body>
 </html>

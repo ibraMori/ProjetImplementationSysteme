@@ -1,10 +1,6 @@
 ﻿namespace welcomeCanada.Models
 {
-    public enum TypeUtilisateur
-    {
-        Etudiant,
-        Travailleur
-    }
+    
 
     public class Utilisateur
     {

@@ -1,37 +1,59 @@
-﻿using System.Data;
+﻿using System;
+using System.Configuration;
+using System.Data;
 using System.Data.SqlClient;
 using welcomeCanada.Database;
+using welcomeCanada.Models;
 
 namespace welcomeCanada.Services
 {
     public class AdminService
     {
-        SqlConnection db = ConnexionDB.Instance.GetConnection();
-
-        public void AddGuide(string guide)
+        public DataTable GetUtilisateurs(string nom = "", string type = "")
         {
-            SqlCommand cmd = new SqlCommand("INSERT INTO Guides (Title) VALUES (@Title)", db);
-            cmd.Parameters.AddWithValue("@Title", guide);
-            db.Open();
-            cmd.ExecuteNonQuery();
-            db.Close();
+            using (SqlConnection db = ConnexionDB.Instance.GetConnection())
+            {
+                string query = "SELECT Id, Nom, Prenom, Email, TypeUtilisateur FROM Utilisateurs WHERE 1=1";
+
+                SqlCommand cmd = new SqlCommand();
+                cmd.Connection = db;
+
+                if (!string.IsNullOrWhiteSpace(nom))
+                {
+                    query += " AND Nom LIKE @nom";
+                    cmd.Parameters.AddWithValue("@nom", "%" + nom + "%");
+                }
+
+                if (!string.IsNullOrWhiteSpace(type))
+                {
+                    query += " AND TypeUtilisateur = @type";
+                    cmd.Parameters.AddWithValue("@type", type);
+                }
+
+                cmd.CommandText = query;
+
+                SqlDataAdapter adapter = new SqlDataAdapter(cmd);
+                DataTable dt = new DataTable();
+                adapter.Fill(dt);
+
+                return dt;
+            }
         }
 
-        public DataTable GetUsers()
+        public void SupprimerUtilisateur(int id)
         {
-            SqlDataAdapter da = new SqlDataAdapter("SELECT Id, Email, Role FROM Users", db);
-            DataTable dt = new DataTable();
-            da.Fill(dt);
-            return dt;
-        }
+            using (SqlConnection db = ConnexionDB.Instance.GetConnection())
+            {
+                string query = "DELETE FROM Utilisateurs WHERE Id = @id";
 
-        public void DeleteUser(int id)
-        {
-            SqlCommand cmd = new SqlCommand("DELETE FROM Users WHERE Id=@Id", db);
-            cmd.Parameters.AddWithValue("@Id", id);
-            db.Open();
-            cmd.ExecuteNonQuery();
-            db.Close();
+                SqlCommand cmd = new SqlCommand(query, db);
+                cmd.Parameters.AddWithValue("@id", id);
+
+                db.Open();
+                cmd.ExecuteNonQuery();
+            }
         }
     }
+
+
 }

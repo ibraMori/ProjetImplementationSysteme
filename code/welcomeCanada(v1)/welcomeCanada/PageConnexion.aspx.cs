@@ -1,4 +1,5 @@
 ﻿using System;
+using welcomeCanada.Models;
 using welcomeCanada.Services;
 
 namespace welcomeCanada
@@ -20,7 +21,17 @@ namespace welcomeCanada
             if (auth.Connexion(email, mdp))
             {
                 Session["EmailUtilisateur"] = email;
-                Response.Redirect("PageGuides.aspx");
+                string nom = auth.GetNomByEmail(email);
+                string prenom = auth.GetPrenomByEmail(email);
+                TypeUtilisateur? type = auth.GetTypeUtilisateurByEmail(email);
+
+                if (type != null)
+                {
+                    Session["Nom"] = nom;
+                    Session["Prenom"] = prenom;
+                    Session["TypeUtilisateur"] = type;
+                    Response.Redirect("Home.aspx");
+                }
             }
             else
             {

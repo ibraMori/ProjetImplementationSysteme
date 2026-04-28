@@ -135,6 +135,10 @@
             Text="Reset"
             CssClass="btn"
             OnClick="btnReset_Click" />
+        <asp:Button ID="BtnReturnHome" runat="server"
+            Text="Retour a Home"
+            CssClass="btn"
+            OnClick="BtnReturnHome_Click" />
 
         <br />
 

@@ -115,10 +115,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Data\WelcomeCanada.ldf">
-      <DependentUpon>WelcomeCanada.mdf</DependentUpon>
-    </Content>
-    <Content Include="App_Data\WelcomeCanada.mdf" />
     <Content Include="App_Data\welcomeCanadaDB.ldf">
       <DependentUpon>welcomeCanadaDB.mdf</DependentUpon>
     </Content>
@@ -128,16 +124,34 @@
     <Content Include="index.aspx" />
     <Content Include="PageAdmin.aspx" />
     <Content Include="PageAdminLogin.aspx" />
-    <Content Include="PageBanques.aspx" />
     <Content Include="PageConnexion.aspx" />
-    <Content Include="PageGuides.aspx" />
+    <Content Include="PageEditGuide.aspx" />
     <Content Include="PageInscription.aspx" />
-    <Content Include="PageNAS.aspx" />
-    <Content Include="PageOPUS.aspx" />
     <Content Include="Web.config" />
     <Content Include="pageLogement.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Services\BienvenueState.cs" />
+    <Compile Include="Models\EtudiantGuideObserver.cs" />
+    <Compile Include="Models\GuideCategorie.cs" />
+    <Compile Include="Services\GuideService.cs" />
+    <Compile Include="Services\GuidesState.cs" />
+    <Compile Include="Models\GuideSubject.cs" />
+    <Compile Include="Services\HomeContext.cs" />
+    <Compile Include="Services\HomeController.cs" />
+    <Compile Include="Models\IGuideObserver.cs" />
+    <Compile Include="Services\IHomeView.cs" />
+    <Compile Include="Services\IState.cs" />
+    <Compile Include="Services\LogoutState.cs" />
+    <Compile Include="Models\TravailleurGuideObserver.cs" />
+    <Compile Include="Models\TypeUtilisateur.cs" />
+    <Compile Include="PageEditGuide.aspx.cs">
+      <DependentUpon>PageEditGuide.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PageEditGuide.aspx.designer.cs">
+      <DependentUpon>PageEditGuide.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Services\AdminService.cs" />
     <Compile Include="Database\ConnexionDB.cs" />
     <Compile Include="Home.aspx.cs">
@@ -155,10 +169,8 @@
       <DependentUpon>index.aspx</DependentUpon>
     </Compile>
     <Compile Include="Models\Admin.cs" />
-    <Compile Include="Models\Etudiant.cs" />
     <Compile Include="Models\Guide.cs" />
     <Compile Include="Models\Logement.cs" />
-    <Compile Include="Models\Travailleur.cs" />
     <Compile Include="Models\Utilisateur.cs" />
     <Compile Include="PageAdmin.aspx.cs">
       <DependentUpon>PageAdmin.aspx</DependentUpon>
@@ -174,13 +186,6 @@
     <Compile Include="PageAdminLogin.aspx.designer.cs">
       <DependentUpon>PageAdminLogin.aspx</DependentUpon>
     </Compile>
-    <Compile Include="PageBanques.aspx.cs">
-      <DependentUpon>PageBanques.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="PageBanques.aspx.designer.cs">
-      <DependentUpon>PageBanques.aspx</DependentUpon>
-    </Compile>
     <Compile Include="PageConnexion.aspx.cs">
       <DependentUpon>PageConnexion.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -188,33 +193,12 @@
     <Compile Include="PageConnexion.aspx.designer.cs">
       <DependentUpon>PageConnexion.aspx</DependentUpon>
     </Compile>
-    <Compile Include="PageGuides.aspx.cs">
-      <DependentUpon>PageGuides.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="PageGuides.aspx.designer.cs">
-      <DependentUpon>PageGuides.aspx</DependentUpon>
-    </Compile>
     <Compile Include="PageInscription.aspx.cs">
       <DependentUpon>PageInscription.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="PageInscription.aspx.designer.cs">
       <DependentUpon>PageInscription.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="PageNAS.aspx.cs">
-      <DependentUpon>PageNAS.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="PageNAS.aspx.designer.cs">
-      <DependentUpon>PageNAS.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="PageOPUS.aspx.cs">
-      <DependentUpon>PageOPUS.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="PageOPUS.aspx.designer.cs">
-      <DependentUpon>PageOPUS.aspx</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

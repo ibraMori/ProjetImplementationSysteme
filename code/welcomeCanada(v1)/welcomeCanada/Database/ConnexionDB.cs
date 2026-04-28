@@ -10,8 +10,17 @@ namespace welcomeCanada.Database
 
         private ConnexionDB()
         {
-            connectionString = ConfigurationManager
-                .ConnectionStrings["DefaultConnection"].ConnectionString;
+            var config = ConfigurationManager.ConnectionStrings["DefaultConnection"];
+
+            if (config != null)
+            {
+                connectionString = config.ConnectionString;
+            }
+            else
+            {
+                connectionString =
+                    @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=welcomeCanDB;Integrated Security=True";
+            }
         }
 
         public static ConnexionDB Instance

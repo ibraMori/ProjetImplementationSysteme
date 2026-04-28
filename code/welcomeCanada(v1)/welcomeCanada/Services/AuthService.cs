@@ -60,6 +60,62 @@ namespace welcomeCanada.Services
                 return result > 0;
             }
         }
+        public string GetNomByEmail(string email)
+        {
+            using (SqlConnection db = ConnexionDB.Instance.GetConnection())
+            {
+                string query = "SELECT Nom FROM Utilisateurs WHERE Email = @email";
+
+                SqlCommand cmd = new SqlCommand(query, db);
+                cmd.Parameters.AddWithValue("@email", email);
+
+                db.Open();
+
+                object result = cmd.ExecuteScalar();
+
+                return result != null ? result.ToString() : null;
+            }
+        }
+        public string GetPrenomByEmail(string email)
+        {
+            using (SqlConnection db = ConnexionDB.Instance.GetConnection())
+            {
+                string query = "SELECT Prenom FROM Utilisateurs WHERE Email = @email";
+
+                SqlCommand cmd = new SqlCommand(query, db);
+                cmd.Parameters.AddWithValue("@email", email);
+
+                db.Open();
+
+                object result = cmd.ExecuteScalar();
+
+                return result != null ? result.ToString() : null;
+            }
+        }
+        public TypeUtilisateur? GetTypeUtilisateurByEmail(string email)
+        {
+            using (SqlConnection db = ConnexionDB.Instance.GetConnection())
+            {
+                string query = "SELECT TypeUtilisateur FROM Utilisateurs WHERE Email = @email";
+
+                SqlCommand cmd = new SqlCommand(query, db);
+                cmd.Parameters.AddWithValue("@email", email);
+
+                db.Open();
+
+                object result = cmd.ExecuteScalar();
+
+                if (result != null)
+                {
+                    return (TypeUtilisateur)Enum.Parse(
+                        typeof(TypeUtilisateur),
+                        result.ToString()
+                    );
+                }
+
+                return null;
+            }
+        }
 
         // =========================
         // CONNEXION ADMIN
@@ -71,7 +127,7 @@ namespace welcomeCanada.Services
                 con.Open();
 
                 string query = @"SELECT COUNT(*) 
-                                 FROM Admins 
+                                 FROM Admin 
                                  WHERE AdminId = @Id AND MotDePasse = @Mdp";
 
                 SqlCommand cmd = new SqlCommand(query, con);
