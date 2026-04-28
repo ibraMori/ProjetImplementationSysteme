@@ -49,6 +49,12 @@ Together, they provide a clear, professional, and maintainable documentation fra
 - [diagramme des classes](documentation/diagrammeDeClasses.png)
 - [rapport](documentation/report.md)
 
+
+Execution video
+
+
+
+
 How to Run
 Prerequisites
 
@@ -97,17 +103,10 @@ Administrator
 AdminId: 1234
 Password: 1234
 Sample Users
-ahmed@gmail.com / (hashed password)
 marc@gmail.com / marc
-hajar@test.com / 2006
-koukoussa@test.com / 2000
 yuji@gmail.com / yuji
 gojo@gmail.com / gojo
 
-Note:
-
-Some passwords are stored as hashed values
-Others are plain text for testing purposes
 Option 1 — Run with Visual Studio (Recommended)
 Open the solution file located in the /code directory
 Ensure the database is correctly configured and accessible
