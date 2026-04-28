@@ -8,7 +8,23 @@
     <!-- Bootstrap CDN -->
     <link rel="stylesheet" 
           href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" />
+    <div style="
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    margin-bottom:30px;
+">
 
+    <img src="images/canada-logo.png"
+         style="width:120px;height:auto;border-radius:10px;
+         box-shadow:0 5px 15px rgba(0,0,0,0.2);" />
+
+    <h2 style="margin-top:10px;color:#1a3d6f;">
+        Welcome Canada
+    </h2>
+
+</div>
     <style>
         body {
             background: #f5f7fa;
@@ -43,8 +59,8 @@
             <p>L’application qui accompagne les nouveaux immigrants dans leurs démarches essentielles.</p>
 
             <div class="mt-4">
-                <a href="pageConexion.aspx" class="btn btn-primary btn-custom">Connexion</a>
-                <a href="pageConexion.aspx" class="btn btn-outline-primary btn-custom">Inscription</a>
+                <a href="PageConnexion.aspx" class="btn btn-primary btn-custom">Connexion</a>
+                <a href="PageInscription.aspx" class="btn btn-outline-primary btn-custom">Inscription</a>
             </div>
         </div>
 

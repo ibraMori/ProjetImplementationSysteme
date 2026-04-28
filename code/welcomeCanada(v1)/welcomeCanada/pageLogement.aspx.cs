@@ -16,18 +16,12 @@ namespace welcomeCanada
             }
         }
 
-        // ======================
-        // Charger tous les logements
-        // ======================
         private void ChargerTous()
         {
             GridViewLogements.DataSource = service.GetAllLogements();
             GridViewLogements.DataBind();
         }
 
-        // ======================
-        // FILTRAGE
-        // ======================
         protected void btnFiltrer_Click(object sender, EventArgs e)
         {
             string ville = txtVille.Text;
@@ -35,7 +29,6 @@ namespace welcomeCanada
             decimal? prixMax = null;
             int? dimensionMin = null;
 
-            // sécurisation conversion prix
             if (!string.IsNullOrEmpty(txtPrixMax.Text))
             {
                 if (decimal.TryParse(txtPrixMax.Text, out decimal prix))
@@ -47,7 +40,6 @@ namespace welcomeCanada
                 }
             }
 
-            // sécurisation conversion dimension
             if (!string.IsNullOrEmpty(txtDimensionMin.Text))
             {
                 if (int.TryParse(txtDimensionMin.Text, out int dim))
@@ -61,22 +53,12 @@ namespace welcomeCanada
 
             DataTable data = service.GetLogements(ville, prixMax, dimensionMin);
 
-            if (data.Rows.Count == 0)
-            {
-                lblMessage.Text = "Aucun résultat trouvé";
-            }
-            else
-            {
-                lblMessage.Text = "";
-            }
+            lblMessage.Text = data.Rows.Count == 0 ? "Aucun résultat" : "";
 
             GridViewLogements.DataSource = data;
             GridViewLogements.DataBind();
         }
 
-        // ======================
-        // RESET
-        // ======================
         protected void btnReset_Click(object sender, EventArgs e)
         {
             txtVille.Text = "";

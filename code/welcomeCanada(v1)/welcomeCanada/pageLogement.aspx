@@ -6,27 +6,122 @@
     <title>Logements</title>
 
     <style>
-        body { font-family: Arial; margin:40px; }
-        input { padding:6px; margin:5px; }
-        .btn { padding:8px 15px; background:#0078D4; color:white; border:none; cursor:pointer; }
-        .btn:hover { background:#005a9e; }
-        .message { color:red; }
+        body {
+            font-family: 'Segoe UI', Arial;
+            background: linear-gradient(to right, #eef2f7, #f8fbff);
+            margin: 0;
+            padding: 30px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #1a3d6f;
+            margin-bottom: 30px;
+        }
+
+        .container {
+            width: 900px;
+            margin: auto;
+        }
+
+        .card {
+            background: white;
+            margin: 15px 0;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+        }
+
+        input {
+            padding: 8px;
+            margin: 5px;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+        }
+
+        .btn {
+            padding: 8px 15px;
+            background: #0078D4;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background: #005a9e;
+        }
+
+        .message {
+            color: red;
+            margin-top: 10px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th {
+            background: #0078D4;
+            color: white;
+            padding: 10px;
+        }
+
+        td {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        tr:hover {
+            background: #f2f2f2;
+        }
     </style>
+
 </head>
 
 <body>
 
-    <form runat="server">
+<form runat="server">
 
-        <h2>Rechercher un logement</h2>
+<!-- HEADER CORRIGÉ -->
+<div style="
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    margin-bottom:30px;
+">
+    <img src="images/canada-logo.png"
+         style="width:120px;height:auto;border-radius:10px;
+         box-shadow:0 5px 15px rgba(0,0,0,0.2);" />
 
-        Ville :
+    <h2 style="margin-top:10px;color:#1a3d6f;">
+        Welcome Canada
+    </h2>
+</div>
+
+<h1>🏠 Recherche de logement</h1>
+
+<div class="container">
+
+    <div class="card">
+
+        <h3>🔍 Filtrer</h3>
+
+        Ville:
         <asp:TextBox ID="txtVille" runat="server" />
 
-        Budget max :
+        Budget max:
         <asp:TextBox ID="txtPrixMax" runat="server" />
 
-        Dimension min :
+        Dimension min:
         <asp:TextBox ID="txtDimensionMin" runat="server" />
 
         <br />
@@ -41,16 +136,19 @@
             CssClass="btn"
             OnClick="btnReset_Click" />
 
-        <br /><br />
+        <br />
 
         <asp:Label ID="lblMessage" runat="server" CssClass="message"></asp:Label>
 
-        <br />
+    </div>
+
+    <div class="card">
+
+        <h3>📋 Résultats</h3>
 
         <asp:GridView ID="GridViewLogements"
             runat="server"
-            AutoGenerateColumns="false"
-            BorderWidth="1">
+            AutoGenerateColumns="false">
 
             <Columns>
                 <asp:BoundField DataField="Id" HeaderText="ID" />
@@ -63,7 +161,11 @@
 
         </asp:GridView>
 
-    </form>
+    </div>
+
+</div>
+
+</form>
 
 </body>
 </html>

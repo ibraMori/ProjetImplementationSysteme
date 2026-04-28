@@ -1,4 +1,5 @@
-﻿using System.Data.SqlClient;
+﻿using System;
+using System.Data.SqlClient;
 using welcomeCanada.Database;
 using welcomeCanada.Models;
 
@@ -6,22 +7,23 @@ namespace welcomeCanada.Services
 {
     public class AuthService
     {
+        private ConnexionDB db = ConnexionDB.Instance;
+
+        // =========================
+        // INSCRIPTION UTILISATEUR
+        // =========================
         public string Inscrire(TypeUtilisateur type, string nom, string prenom, string email, string mdp)
         {
-            using (var conn = ConnexionDB.Instance.GetConnection())
+            using (SqlConnection con = db.GetConnection())
             {
-                SqlCommand check = new SqlCommand(
-                    "SELECT COUNT(*) FROM Utilisateurs WHERE Email=@Email", conn);
+                con.Open();
 
-                check.Parameters.AddWithValue("@Email", email);
+                string query = @"INSERT INTO Utilisateurs
+                                (Nom, Prenom, Email, MotDePasse, TypeUtilisateur)
+                                VALUES
+                                (@Nom, @Prenom, @Email, @Mdp, @Type)";
 
-                if ((int)check.ExecuteScalar() > 0)
-                    return "Email déjà utilisé";
-
-                SqlCommand cmd = new SqlCommand(
-                    @"INSERT INTO Utilisateurs 
-                    (Nom, Prenom, Email, MotDePasse, TypeUtilisateur)
-                    VALUES (@Nom,@Prenom,@Email,@Mdp,@Type)", conn);
+                SqlCommand cmd = new SqlCommand(query, con);
 
                 cmd.Parameters.AddWithValue("@Nom", nom);
                 cmd.Parameters.AddWithValue("@Prenom", prenom);
@@ -30,22 +32,56 @@ namespace welcomeCanada.Services
                 cmd.Parameters.AddWithValue("@Type", type.ToString());
 
                 cmd.ExecuteNonQuery();
-            }
 
-            return "Inscription réussie";
+                return "Inscription réussie";
+            }
         }
 
+        // =========================
+        // CONNEXION UTILISATEUR
+        // =========================
         public bool Connexion(string email, string mdp)
         {
-            using (var conn = ConnexionDB.Instance.GetConnection())
+            using (SqlConnection con = db.GetConnection())
             {
-                SqlCommand cmd = new SqlCommand(
-                    "SELECT COUNT(*) FROM Utilisateurs WHERE Email=@Email AND MotDePasse=@Mdp", conn);
+                con.Open();
+
+                string query = @"SELECT COUNT(*) 
+                                 FROM Utilisateurs 
+                                 WHERE Email = @Email AND MotDePasse = @Mdp";
+
+                SqlCommand cmd = new SqlCommand(query, con);
 
                 cmd.Parameters.AddWithValue("@Email", email);
                 cmd.Parameters.AddWithValue("@Mdp", mdp);
 
-                return (int)cmd.ExecuteScalar() > 0;
+                int result = (int)cmd.ExecuteScalar();
+
+                return result > 0;
+            }
+        }
+
+        // =========================
+        // CONNEXION ADMIN
+        // =========================
+        public bool ConnexionAdmin(string adminId, string mdp)
+        {
+            using (SqlConnection con = db.GetConnection())
+            {
+                con.Open();
+
+                string query = @"SELECT COUNT(*) 
+                                 FROM Admins 
+                                 WHERE AdminId = @Id AND MotDePasse = @Mdp";
+
+                SqlCommand cmd = new SqlCommand(query, con);
+
+                cmd.Parameters.AddWithValue("@Id", adminId);
+                cmd.Parameters.AddWithValue("@Mdp", mdp);
+
+                int result = (int)cmd.ExecuteScalar();
+
+                return result > 0;
             }
         }
     }

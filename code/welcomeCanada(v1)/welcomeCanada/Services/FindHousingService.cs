@@ -1,4 +1,5 @@
-﻿using System.Data;
+﻿using System;
+using System.Data;
 using System.Data.SqlClient;
 using welcomeCanada.Database;
 
@@ -6,58 +7,72 @@ namespace welcomeCanada.Services
 {
     public class FindHousingService
     {
-        // ============================
-        // FILTRAGE (ville, budget, dimension)
-        // ============================
-        public DataTable GetLogements(string ville = null, decimal? prixMax = null, int? dimensionMin = null)
+        private ConnexionDB db = ConnexionDB.Instance;
+
+        // =========================
+        // TOUS LES LOGEMENTS
+        // =========================
+        public DataTable GetAllLogements()
         {
-            using (var conn = ConnexionDB.Instance.GetConnection())
+            using (SqlConnection con = db.GetConnection())
             {
+                con.Open();
+
+                string query = "SELECT * FROM Logements";
+
+                SqlDataAdapter da = new SqlDataAdapter(query, con);
                 DataTable dt = new DataTable();
 
-                string query = "SELECT Id, Titre, Ville, Prix, Dimension, Description FROM Logements WHERE 1=1";
+                da.Fill(dt);
+
+                return dt;
+            }
+        }
+
+        // =========================
+        // FILTRAGE AVANCÉ
+        // =========================
+        public DataTable GetLogements(string ville, decimal? prixMax, int? dimensionMin)
+        {
+            using (SqlConnection con = db.GetConnection())
+            {
+                con.Open();
+
+                string query = @"SELECT * FROM Logements WHERE 1=1";
 
                 SqlCommand cmd = new SqlCommand();
-                cmd.Connection = conn;
+                cmd.Connection = con;
 
-                // Filtre ville
+                // filtre ville
                 if (!string.IsNullOrEmpty(ville))
                 {
                     query += " AND Ville LIKE @Ville";
                     cmd.Parameters.AddWithValue("@Ville", "%" + ville + "%");
                 }
 
-                // Filtre prix
+                // filtre prix max
                 if (prixMax.HasValue)
                 {
                     query += " AND Prix <= @PrixMax";
                     cmd.Parameters.AddWithValue("@PrixMax", prixMax.Value);
                 }
 
-                // Filtre dimension
+                // filtre dimension min
                 if (dimensionMin.HasValue)
                 {
-                    query += " AND Dimension >= @DimensionMin";
-                    cmd.Parameters.AddWithValue("@DimensionMin", dimensionMin.Value);
+                    query += " AND Dimension >= @DimMin";
+                    cmd.Parameters.AddWithValue("@DimMin", dimensionMin.Value);
                 }
 
                 cmd.CommandText = query;
 
-                using (SqlDataAdapter da = new SqlDataAdapter(cmd))
-                {
-                    da.Fill(dt);
-                }
+                SqlDataAdapter da = new SqlDataAdapter(cmd);
+                DataTable dt = new DataTable();
+
+                da.Fill(dt);
 
                 return dt;
             }
-        }
-
-        // ============================
-        // TOUS LES LOGEMENTS
-        // ============================
-        public DataTable GetAllLogements()
-        {
-            return GetLogements();
         }
     }
 }

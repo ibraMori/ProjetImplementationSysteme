@@ -7,12 +7,20 @@ namespace welcomeCanada
     {
         AuthService auth = new AuthService();
 
-        protected void BtnConnexion_Click(object sender, EventArgs e)
+        protected void Page_Load(object sender, EventArgs e)
         {
-            if (auth.Connexion(txtEmail.Text, txtMotDePasse.Text))
+
+        }
+
+        protected void btnConnexion_Click(object sender, EventArgs e)
+        {
+            string email = txtEmail.Text.Trim();
+            string mdp = txtMotDePasse.Text.Trim();
+
+            if (auth.Connexion(email, mdp))
             {
-                Session["EmailUtilisateur"] = txtEmail.Text;
-                Response.Redirect("Home.aspx");
+                Session["EmailUtilisateur"] = email;
+                Response.Redirect("PageGuides.aspx");
             }
             else
             {

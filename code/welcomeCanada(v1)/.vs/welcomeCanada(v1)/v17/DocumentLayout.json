@@ -1,59 +1,183 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ibrah\\ProjetImplementationSysteme\\code\\welcomeCanada(v1)\\",
+  "WorkspaceRootPath": "C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\",
   "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|c:\\users\\ibrah\\downloads\\welcomecanada(v1) 1 (2) 1\\welcomecanada(v1) 1 (2)\\welcomecanada(v1) 1\\welcomecanada(v1)\\welcomecanada\\pageadminlogin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|solutionrelative:welcomecanada\\pageadminlogin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomecanada\\pageadmin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|solutionrelative:welcomecanada\\pageadmin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomecanada\\services\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|solutionrelative:welcomecanada\\services\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomecanada\\pagebanques.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|solutionrelative:welcomecanada\\pagebanques.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomecanada\\home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|solutionrelative:welcomecanada\\home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomecanada\\pagenas.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|solutionrelative:welcomecanada\\pagenas.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomecanada\\pagenas.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|solutionrelative:welcomecanada\\pagenas.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomecanada\\pageguides.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|solutionrelative:welcomecanada\\pageguides.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomecanada\\pageguides.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|solutionrelative:welcomecanada\\pageguides.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomecanada\\pageinscription.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|solutionrelative:welcomecanada\\pageinscription.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomecanada\\pageadmin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|solutionrelative:welcomecanada\\pageadmin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomecanada\\pageopus.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|solutionrelative:welcomecanada\\pageopus.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomecanada\\pagelogement.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|solutionrelative:welcomecanada\\pagelogement.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomecanada\\pageinscription.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|solutionrelative:welcomecanada\\pageinscription.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomecanada\\pageconnexion.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|solutionrelative:welcomecanada\\pageconnexion.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomecanada\\pageconnexion.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|solutionrelative:welcomecanada\\pageconnexion.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomecanada\\pageopus.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|solutionrelative:welcomecanada\\pageopus.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomecanada\\index.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|solutionrelative:welcomecanada\\index.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomecanada\\index.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|solutionrelative:welcomecanada\\index.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomecanada\\pagelogement.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|solutionrelative:welcomecanada\\pagelogement.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomecanada\\pageconnexion.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|solutionrelative:welcomecanada\\pageconnexion.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomecanada\\pagebanques.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|solutionrelative:welcomecanada\\pagebanques.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomecanada\\pageadminlogin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|solutionrelative:welcomecanada\\pageadminlogin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomecanada\\testcalculation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|solutionrelative:welcomecanada\\testcalculation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomecanada\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|solutionrelative:welcomecanada\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomecanada\\services\\findhousingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|solutionrelative:welcomecanada\\services\\findhousingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomecanada\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|solutionrelative:welcomecanada\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomecanada\\database\\connexiondb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|solutionrelative:welcomecanada\\database\\connexiondb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomecanada\\models\\utilisateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|solutionrelative:welcomecanada\\models\\utilisateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomecanada\\models\\travailleur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|solutionrelative:welcomecanada\\models\\travailleur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomecanada\\models\\logement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|solutionrelative:welcomecanada\\models\\logement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomecanada\\models\\guide.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|solutionrelative:welcomecanada\\models\\guide.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomecanada\\models\\etudiant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|solutionrelative:welcomecanada\\models\\etudiant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomecanada\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|solutionrelative:welcomecanada\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomecanada\\pageadminlogin.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|solutionrelative:welcomecanada\\pageadminlogin.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomecanada\\pageadmin.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|solutionrelative:welcomecanada\\pageadmin.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomecanada\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|solutionrelative:welcomecanada\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomecanada\\web.release.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|solutionrelative:welcomecanada\\web.release.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomecanada\\web.debug.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|solutionrelative:welcomecanada\\web.debug.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomecanada\\home.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|solutionrelative:welcomecanada\\home.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/welcomeCanadaFinalDB/True/SqlTable/dbo.Utilisateurs.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A17A61A2-F2F5-4ADF-8FD4-27DD3C0D1AB3}|UnitTestApp\\UnitTestApp.csproj|c:\\users\\ibrah\\projetimplementationsysteme\\code\\welcomecanada(v1)\\unittestapp\\unittestapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{A17A61A2-F2F5-4ADF-8FD4-27DD3C0D1AB3}|UnitTestApp\\UnitTestApp.csproj|c:\\users\\ibrah\\downloads\\welcomecanada(v1) 1 (2) 1\\welcomecanada(v1) 1 (2)\\welcomecanada(v1) 1\\welcomecanada(v1)\\unittestapp\\unittestapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{A17A61A2-F2F5-4ADF-8FD4-27DD3C0D1AB3}|UnitTestApp\\UnitTestApp.csproj|solutionrelative:unittestapp\\unittestapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|C:\\Users\\ibrah\\ProjetImplementationSysteme\\code\\welcomeCanada(v1)\\welcomecanada\\database\\connexiondb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|solutionrelative:welcomecanada\\database\\connexiondb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A17A61A2-F2F5-4ADF-8FD4-27DD3C0D1AB3}|UnitTestApp\\UnitTestApp.csproj|c:\\users\\ibrah\\projetimplementationsysteme\\code\\welcomecanada(v1)\\unittestapp\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A17A61A2-F2F5-4ADF-8FD4-27DD3C0D1AB3}|UnitTestApp\\UnitTestApp.csproj|c:\\users\\ibrah\\downloads\\welcomecanada(v1) 1 (2) 1\\welcomecanada(v1) 1 (2)\\welcomecanada(v1) 1\\welcomecanada(v1)\\unittestapp\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A17A61A2-F2F5-4ADF-8FD4-27DD3C0D1AB3}|UnitTestApp\\UnitTestApp.csproj|solutionrelative:unittestapp\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|C:\\Users\\ibrah\\ProjetImplementationSysteme\\code\\welcomeCanada(v1)\\welcomecanada\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|solutionrelative:welcomecanada\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|C:\\Users\\ibrah\\ProjetImplementationSysteme\\code\\welcomeCanada(v1)\\welcomecanada\\home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|solutionrelative:welcomecanada\\home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|C:\\Users\\ibrah\\ProjetImplementationSysteme\\code\\welcomeCanada(v1)\\welcomecanada\\services\\findhousingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|solutionrelative:welcomecanada\\services\\findhousingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/welcomeCanDB/True/SqlTable/dbo.Utilisateurs.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|C:\\Users\\ibrah\\ProjetImplementationSysteme\\code\\welcomeCanada(v1)\\welcomecanada\\home.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|solutionrelative:welcomecanada\\home.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|C:\\Users\\ibrah\\ProjetImplementationSysteme\\code\\welcomeCanada(v1)\\welcomecanada\\models\\utilisateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|solutionrelative:welcomecanada\\models\\utilisateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|C:\\Users\\ibrah\\ProjetImplementationSysteme\\code\\welcomeCanada(v1)\\welcomecanada\\index.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|solutionrelative:welcomecanada\\index.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/welcomeCanDB/True/SqlTable/dbo.Logements.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|C:\\Users\\ibrah\\ProjetImplementationSysteme\\code\\welcomeCanada(v1)\\welcomecanada\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|solutionrelative:welcomecanada\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|C:\\Users\\ibrah\\ProjetImplementationSysteme\\code\\welcomeCanada(v1)\\welcomecanada\\index.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7504B566-D991-44BE-BD40-F6B2B59EBFCF}|welcomeCanada\\welcomeCanada.csproj|solutionrelative:welcomecanada\\index.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ibrah\\Downloads\\welcomeCanada(conexion)\\welcomeCanada(v1)\\welcomeCanada(v1)\\welcomeCanada(v1)\\welcomeCanada\\PageConnexion.aspx.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -66,47 +190,508 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "dbo.Utilisateurs [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/welcomeCanadaFinalDB/True/SqlTable/dbo.Utilisateurs.sql",
-              "ToolTip": "dbo.Utilisateurs [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2026-04-26T16:25:13.425Z",
-              "EditorCaption": ""
+              "DocumentIndex": 3,
+              "Title": "PageBanques.aspx",
+              "DocumentMoniker": "C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomeCanada\\PageBanques.aspx",
+              "RelativeDocumentMoniker": "welcomeCanada\\PageBanques.aspx",
+              "ToolTip": "C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomeCanada\\PageBanques.aspx",
+              "RelativeToolTip": "welcomeCanada\\PageBanques.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-04-28T01:11:36.346Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ConnexionDB.cs",
-              "DocumentMoniker": "C:\\Users\\ibrah\\ProjetImplementationSysteme\\code\\welcomeCanada(v1)\\welcomeCanada\\Database\\ConnexionDB.cs",
-              "RelativeDocumentMoniker": "welcomeCanada\\Database\\ConnexionDB.cs",
-              "ToolTip": "C:\\Users\\ibrah\\ProjetImplementationSysteme\\code\\welcomeCanada(v1)\\welcomeCanada\\Database\\ConnexionDB.cs",
-              "RelativeToolTip": "welcomeCanada\\Database\\ConnexionDB.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAYwCAAAAAAAAAAAAAAAA==",
+              "Title": "AdminService.cs",
+              "DocumentMoniker": "C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomeCanada\\Services\\AdminService.cs",
+              "RelativeDocumentMoniker": "welcomeCanada\\Services\\AdminService.cs",
+              "ToolTip": "C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomeCanada\\Services\\AdminService.cs",
+              "RelativeToolTip": "welcomeCanada\\Services\\AdminService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-08T21:28:49.806Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-26T23:11:58.321Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UnitTestApp.csproj",
-              "DocumentMoniker": "C:\\Users\\ibrah\\ProjetImplementationSysteme\\code\\welcomeCanada(v1)\\UnitTestApp\\UnitTestApp.csproj",
-              "RelativeDocumentMoniker": "UnitTestApp\\UnitTestApp.csproj",
-              "ToolTip": "C:\\Users\\ibrah\\ProjetImplementationSysteme\\code\\welcomeCanada(v1)\\UnitTestApp\\UnitTestApp.csproj",
-              "RelativeToolTip": "UnitTestApp\\UnitTestApp.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-04-08T21:24:04.012Z",
+              "Title": "PageAdmin.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomeCanada\\PageAdmin.aspx.cs",
+              "RelativeDocumentMoniker": "welcomeCanada\\PageAdmin.aspx.cs",
+              "ToolTip": "C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomeCanada\\PageAdmin.aspx.cs",
+              "RelativeToolTip": "welcomeCanada\\PageAdmin.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T23:10:19.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PageAdminLogin.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomeCanada\\PageAdminLogin.aspx.cs",
+              "RelativeDocumentMoniker": "welcomeCanada\\PageAdminLogin.aspx.cs",
+              "ToolTip": "C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomeCanada\\PageAdminLogin.aspx.cs",
+              "RelativeToolTip": "welcomeCanada\\PageAdminLogin.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T22:25:13.04Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Home.aspx",
+              "DocumentMoniker": "C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomeCanada\\Home.aspx",
+              "RelativeDocumentMoniker": "welcomeCanada\\Home.aspx",
+              "ToolTip": "C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomeCanada\\Home.aspx",
+              "RelativeToolTip": "welcomeCanada\\Home.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-04-12T22:32:31.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PageNAS.aspx",
+              "DocumentMoniker": "C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomeCanada\\PageNAS.aspx",
+              "RelativeDocumentMoniker": "welcomeCanada\\PageNAS.aspx",
+              "ToolTip": "C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomeCanada\\PageNAS.aspx",
+              "RelativeToolTip": "welcomeCanada\\PageNAS.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-04-28T01:12:35.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PageNAS.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomeCanada\\PageNAS.aspx.cs",
+              "RelativeDocumentMoniker": "welcomeCanada\\PageNAS.aspx.cs",
+              "ToolTip": "C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomeCanada\\PageNAS.aspx.cs",
+              "RelativeToolTip": "welcomeCanada\\PageNAS.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T01:17:53.975Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "PageGuides.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomeCanada\\PageGuides.aspx.cs",
+              "RelativeDocumentMoniker": "welcomeCanada\\PageGuides.aspx.cs",
+              "ToolTip": "C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomeCanada\\PageGuides.aspx.cs",
+              "RelativeToolTip": "welcomeCanada\\PageGuides.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T01:10:40.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PageGuides.aspx",
+              "DocumentMoniker": "C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomeCanada\\PageGuides.aspx",
+              "RelativeDocumentMoniker": "welcomeCanada\\PageGuides.aspx",
+              "ToolTip": "C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomeCanada\\PageGuides.aspx",
+              "RelativeToolTip": "welcomeCanada\\PageGuides.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-04-28T01:09:44.866Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PageInscription.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomeCanada\\PageInscription.aspx.cs",
+              "RelativeDocumentMoniker": "welcomeCanada\\PageInscription.aspx.cs",
+              "ToolTip": "C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomeCanada\\PageInscription.aspx.cs",
+              "RelativeToolTip": "welcomeCanada\\PageInscription.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T22:47:41.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PageAdmin.aspx",
+              "DocumentMoniker": "C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomeCanada\\PageAdmin.aspx",
+              "RelativeDocumentMoniker": "welcomeCanada\\PageAdmin.aspx",
+              "ToolTip": "C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomeCanada\\PageAdmin.aspx",
+              "RelativeToolTip": "welcomeCanada\\PageAdmin.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-04-26T23:09:26.407Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PageInscription.aspx",
+              "DocumentMoniker": "C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomeCanada\\PageInscription.aspx",
+              "RelativeDocumentMoniker": "welcomeCanada\\PageInscription.aspx",
+              "ToolTip": "C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomeCanada\\PageInscription.aspx",
+              "RelativeToolTip": "welcomeCanada\\PageInscription.aspx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-04-26T22:47:31.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PageOPUS.aspx",
+              "DocumentMoniker": "C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomeCanada\\PageOPUS.aspx",
+              "RelativeDocumentMoniker": "welcomeCanada\\PageOPUS.aspx",
+              "ToolTip": "C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomeCanada\\PageOPUS.aspx",
+              "RelativeToolTip": "welcomeCanada\\PageOPUS.aspx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-04-28T01:13:08.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "pageLogement.aspx",
+              "DocumentMoniker": "C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomeCanada\\pageLogement.aspx",
+              "RelativeDocumentMoniker": "welcomeCanada\\pageLogement.aspx",
+              "ToolTip": "C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomeCanada\\pageLogement.aspx",
+              "RelativeToolTip": "welcomeCanada\\pageLogement.aspx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-04-27T22:38:11.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PageConnexion.aspx",
+              "DocumentMoniker": "C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomeCanada\\PageConnexion.aspx",
+              "RelativeDocumentMoniker": "welcomeCanada\\PageConnexion.aspx",
+              "ToolTip": "C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomeCanada\\PageConnexion.aspx",
+              "RelativeToolTip": "welcomeCanada\\PageConnexion.aspx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-04-26T22:44:51.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PageConnexion.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomeCanada\\PageConnexion.aspx.cs",
+              "RelativeDocumentMoniker": "welcomeCanada\\PageConnexion.aspx.cs",
+              "ToolTip": "C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomeCanada\\PageConnexion.aspx.cs",
+              "RelativeToolTip": "welcomeCanada\\PageConnexion.aspx.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAA7wBYAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T22:46:51.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PageOPUS.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomeCanada\\PageOPUS.aspx.cs",
+              "RelativeDocumentMoniker": "welcomeCanada\\PageOPUS.aspx.cs",
+              "ToolTip": "C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomeCanada\\PageOPUS.aspx.cs",
+              "RelativeToolTip": "welcomeCanada\\PageOPUS.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T01:18:24.324Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "index.aspx",
+              "DocumentMoniker": "C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomeCanada\\index.aspx",
+              "RelativeDocumentMoniker": "welcomeCanada\\index.aspx",
+              "ToolTip": "C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomeCanada\\index.aspx",
+              "RelativeToolTip": "welcomeCanada\\index.aspx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-03-30T02:29:02.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "index.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomeCanada\\index.aspx.cs",
+              "RelativeDocumentMoniker": "welcomeCanada\\index.aspx.cs",
+              "ToolTip": "C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomeCanada\\index.aspx.cs",
+              "RelativeToolTip": "welcomeCanada\\index.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T00:00:36.404Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "pageLogement.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomeCanada\\pageLogement.aspx.cs",
+              "RelativeDocumentMoniker": "welcomeCanada\\pageLogement.aspx.cs",
+              "ToolTip": "C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomeCanada\\pageLogement.aspx.cs",
+              "RelativeToolTip": "welcomeCanada\\pageLogement.aspx.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAwwEgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T22:47:39.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "PageConnexion.aspx.designer.cs",
+              "DocumentMoniker": "C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomeCanada\\PageConnexion.aspx.designer.cs",
+              "RelativeDocumentMoniker": "welcomeCanada\\PageConnexion.aspx.designer.cs",
+              "ToolTip": "C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomeCanada\\PageConnexion.aspx.designer.cs",
+              "RelativeToolTip": "welcomeCanada\\PageConnexion.aspx.designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T01:19:49.073Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "PageBanques.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomeCanada\\PageBanques.aspx.cs",
+              "RelativeDocumentMoniker": "welcomeCanada\\PageBanques.aspx.cs",
+              "ToolTip": "C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomeCanada\\PageBanques.aspx.cs",
+              "RelativeToolTip": "welcomeCanada\\PageBanques.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T01:17:13.001Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "PageAdminLogin.aspx",
+              "DocumentMoniker": "C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomeCanada\\PageAdminLogin.aspx",
+              "RelativeDocumentMoniker": "welcomeCanada\\PageAdminLogin.aspx",
+              "ToolTip": "C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomeCanada\\PageAdminLogin.aspx",
+              "RelativeToolTip": "welcomeCanada\\PageAdminLogin.aspx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-04-27T21:44:24.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomeCanada\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "welcomeCanada\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomeCanada\\Services\\AuthService.cs",
+              "RelativeToolTip": "welcomeCanada\\Services\\AuthService.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAFcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T00:03:07.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "TestCalculation.cs",
+              "DocumentMoniker": "C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomeCanada\\TestCalculation.cs",
+              "RelativeDocumentMoniker": "welcomeCanada\\TestCalculation.cs",
+              "ToolTip": "C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomeCanada\\TestCalculation.cs",
+              "RelativeToolTip": "welcomeCanada\\TestCalculation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T22:55:56.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "FindHousingService.cs",
+              "DocumentMoniker": "C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomeCanada\\Services\\FindHousingService.cs",
+              "RelativeDocumentMoniker": "welcomeCanada\\Services\\FindHousingService.cs",
+              "ToolTip": "C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomeCanada\\Services\\FindHousingService.cs",
+              "RelativeToolTip": "welcomeCanada\\Services\\FindHousingService.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAgwE0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T00:09:13.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomeCanada\\Program.cs",
+              "RelativeDocumentMoniker": "welcomeCanada\\Program.cs",
+              "ToolTip": "C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomeCanada\\Program.cs",
+              "RelativeToolTip": "welcomeCanada\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T22:48:44.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ConnexionDB.cs",
+              "DocumentMoniker": "C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomeCanada\\Database\\ConnexionDB.cs",
+              "RelativeDocumentMoniker": "welcomeCanada\\Database\\ConnexionDB.cs",
+              "ToolTip": "C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomeCanada\\Database\\ConnexionDB.cs",
+              "RelativeToolTip": "welcomeCanada\\Database\\ConnexionDB.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T21:28:49.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Utilisateur.cs",
+              "DocumentMoniker": "C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomeCanada\\Models\\Utilisateur.cs",
+              "RelativeDocumentMoniker": "welcomeCanada\\Models\\Utilisateur.cs",
+              "ToolTip": "C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomeCanada\\Models\\Utilisateur.cs",
+              "RelativeToolTip": "welcomeCanada\\Models\\Utilisateur.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T00:04:31.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Logement.cs",
+              "DocumentMoniker": "C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomeCanada\\Models\\Logement.cs",
+              "RelativeDocumentMoniker": "welcomeCanada\\Models\\Logement.cs",
+              "ToolTip": "C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomeCanada\\Models\\Logement.cs",
+              "RelativeToolTip": "welcomeCanada\\Models\\Logement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T22:42:56.022Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Travailleur.cs",
+              "DocumentMoniker": "C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomeCanada\\Models\\Travailleur.cs",
+              "RelativeDocumentMoniker": "welcomeCanada\\Models\\Travailleur.cs",
+              "ToolTip": "C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomeCanada\\Models\\Travailleur.cs",
+              "RelativeToolTip": "welcomeCanada\\Models\\Travailleur.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T22:42:57.163Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Guide.cs",
+              "DocumentMoniker": "C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomeCanada\\Models\\Guide.cs",
+              "RelativeDocumentMoniker": "welcomeCanada\\Models\\Guide.cs",
+              "ToolTip": "C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomeCanada\\Models\\Guide.cs",
+              "RelativeToolTip": "welcomeCanada\\Models\\Guide.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T22:42:54.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Etudiant.cs",
+              "DocumentMoniker": "C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomeCanada\\Models\\Etudiant.cs",
+              "RelativeDocumentMoniker": "welcomeCanada\\Models\\Etudiant.cs",
+              "ToolTip": "C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomeCanada\\Models\\Etudiant.cs",
+              "RelativeToolTip": "welcomeCanada\\Models\\Etudiant.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T22:42:53.698Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomeCanada\\Models\\Admin.cs",
+              "RelativeDocumentMoniker": "welcomeCanada\\Models\\Admin.cs",
+              "ToolTip": "C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomeCanada\\Models\\Admin.cs",
+              "RelativeToolTip": "welcomeCanada\\Models\\Admin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T22:42:45.485Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "PageAdminLogin.aspx.designer.cs",
+              "DocumentMoniker": "C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomeCanada\\PageAdminLogin.aspx.designer.cs",
+              "RelativeDocumentMoniker": "welcomeCanada\\PageAdminLogin.aspx.designer.cs",
+              "ToolTip": "C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomeCanada\\PageAdminLogin.aspx.designer.cs",
+              "RelativeToolTip": "welcomeCanada\\PageAdminLogin.aspx.designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T22:29:44.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "PageAdmin.aspx.designer.cs",
+              "DocumentMoniker": "C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomeCanada\\PageAdmin.aspx.designer.cs",
+              "RelativeDocumentMoniker": "welcomeCanada\\PageAdmin.aspx.designer.cs",
+              "ToolTip": "C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomeCanada\\PageAdmin.aspx.designer.cs",
+              "RelativeToolTip": "welcomeCanada\\PageAdmin.aspx.designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T00:34:13.434Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomeCanada\\Web.config",
+              "RelativeDocumentMoniker": "welcomeCanada\\Web.config",
+              "ToolTip": "C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomeCanada\\Web.config",
+              "RelativeToolTip": "welcomeCanada\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-03-30T00:01:45.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Web.Release.config",
+              "DocumentMoniker": "C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomeCanada\\Web.Release.config",
+              "RelativeDocumentMoniker": "welcomeCanada\\Web.Release.config",
+              "ToolTip": "C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomeCanada\\Web.Release.config",
+              "RelativeToolTip": "welcomeCanada\\Web.Release.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-04-27T00:16:57.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Web.Debug.config",
+              "DocumentMoniker": "C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomeCanada\\Web.Debug.config",
+              "RelativeDocumentMoniker": "welcomeCanada\\Web.Debug.config",
+              "ToolTip": "C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomeCanada\\Web.Debug.config",
+              "RelativeToolTip": "welcomeCanada\\Web.Debug.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-04-27T00:16:54.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Home.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomeCanada\\Home.aspx.cs",
+              "RelativeDocumentMoniker": "welcomeCanada\\Home.aspx.cs",
+              "ToolTip": "C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\welcomeCanada\\Home.aspx.cs",
+              "RelativeToolTip": "welcomeCanada\\Home.aspx.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAmwEMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T23:33:23.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "dbo.Utilisateurs.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/welcomeCanadaFinalDB/True/SqlTable/dbo.Utilisateurs.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/welcomeCanadaFinalDB/True/SqlTable/dbo.Utilisateurs.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-04-26T16:25:13.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "UnitTestApp.csproj",
+              "DocumentMoniker": "C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\UnitTestApp\\UnitTestApp.csproj",
+              "RelativeDocumentMoniker": "UnitTestApp\\UnitTestApp.csproj",
+              "ToolTip": "C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\UnitTestApp\\UnitTestApp.csproj",
+              "RelativeToolTip": "UnitTestApp\\UnitTestApp.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-08T21:24:04.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
               "Title": "dbo.Utilisateurs.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/welcomeCanDB/True/SqlTable/dbo.Utilisateurs.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/welcomeCanDB/True/SqlTable/dbo.Utilisateurs.sql",
@@ -115,92 +700,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 42,
               "Title": "UnitTest1.cs",
-              "DocumentMoniker": "C:\\Users\\ibrah\\ProjetImplementationSysteme\\code\\welcomeCanada(v1)\\UnitTestApp\\UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\UnitTestApp\\UnitTest1.cs",
               "RelativeDocumentMoniker": "UnitTestApp\\UnitTest1.cs",
-              "ToolTip": "C:\\Users\\ibrah\\ProjetImplementationSysteme\\code\\welcomeCanada(v1)\\UnitTestApp\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\ibrah\\Downloads\\welcomeCanada(v1) 1 (2) 1\\welcomeCanada(v1) 1 (2)\\welcomeCanada(v1) 1\\welcomeCanada(v1)\\UnitTestApp\\UnitTest1.cs",
               "RelativeToolTip": "UnitTestApp\\UnitTest1.cs",
               "ViewState": "AgIAACUAAAAAAAAAAAAkwD8AAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-08T21:13:04.048Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-08T21:13:04.048Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "C:\\Users\\ibrah\\ProjetImplementationSysteme\\code\\welcomeCanada(v1)\\welcomeCanada\\Services\\AuthService.cs",
-              "RelativeDocumentMoniker": "welcomeCanada\\Services\\AuthService.cs",
-              "ToolTip": "C:\\Users\\ibrah\\ProjetImplementationSysteme\\code\\welcomeCanada(v1)\\welcomeCanada\\Services\\AuthService.cs",
-              "RelativeToolTip": "welcomeCanada\\Services\\AuthService.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBkAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-30T00:03:07.594Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Home.aspx",
-              "DocumentMoniker": "C:\\Users\\ibrah\\ProjetImplementationSysteme\\code\\welcomeCanada(v1)\\welcomeCanada\\Home.aspx",
-              "RelativeDocumentMoniker": "welcomeCanada\\Home.aspx",
-              "ToolTip": "C:\\Users\\ibrah\\ProjetImplementationSysteme\\code\\welcomeCanada(v1)\\welcomeCanada\\Home.aspx",
-              "RelativeToolTip": "welcomeCanada\\Home.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2026-04-12T22:32:31.094Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "FindHousingService.cs",
-              "DocumentMoniker": "C:\\Users\\ibrah\\ProjetImplementationSysteme\\code\\welcomeCanada(v1)\\welcomeCanada\\Services\\FindHousingService.cs",
-              "RelativeDocumentMoniker": "welcomeCanada\\Services\\FindHousingService.cs",
-              "ToolTip": "C:\\Users\\ibrah\\ProjetImplementationSysteme\\code\\welcomeCanada(v1)\\welcomeCanada\\Services\\FindHousingService.cs",
-              "RelativeToolTip": "welcomeCanada\\Services\\FindHousingService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-30T00:09:13.989Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Utilisateur.cs",
-              "DocumentMoniker": "C:\\Users\\ibrah\\ProjetImplementationSysteme\\code\\welcomeCanada(v1)\\welcomeCanada\\Models\\Utilisateur.cs",
-              "RelativeDocumentMoniker": "welcomeCanada\\Models\\Utilisateur.cs",
-              "ToolTip": "C:\\Users\\ibrah\\ProjetImplementationSysteme\\code\\welcomeCanada(v1)\\welcomeCanada\\Models\\Utilisateur.cs",
-              "RelativeToolTip": "welcomeCanada\\Models\\Utilisateur.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-30T00:04:31.343Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "index.aspx",
-              "DocumentMoniker": "C:\\Users\\ibrah\\ProjetImplementationSysteme\\code\\welcomeCanada(v1)\\welcomeCanada\\index.aspx",
-              "RelativeDocumentMoniker": "welcomeCanada\\index.aspx",
-              "ToolTip": "C:\\Users\\ibrah\\ProjetImplementationSysteme\\code\\welcomeCanada(v1)\\welcomeCanada\\index.aspx",
-              "RelativeToolTip": "welcomeCanada\\index.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2026-03-30T02:29:02.348Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Home.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\ibrah\\ProjetImplementationSysteme\\code\\welcomeCanada(v1)\\welcomeCanada\\Home.aspx.cs",
-              "RelativeDocumentMoniker": "welcomeCanada\\Home.aspx.cs",
-              "ToolTip": "C:\\Users\\ibrah\\ProjetImplementationSysteme\\code\\welcomeCanada(v1)\\welcomeCanada\\Home.aspx.cs",
-              "RelativeToolTip": "welcomeCanada\\Home.aspx.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAcwCMAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-29T23:33:23.95Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 44,
               "Title": "dbo.Logements.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/welcomeCanDB/True/SqlTable/dbo.Logements.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/welcomeCanDB/True/SqlTable/dbo.Logements.sql",
@@ -209,39 +721,14 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 45,
               "Title": "PageConnexion.aspx.aspx.cs",
               "DocumentMoniker": "C:\\Users\\ibrah\\Downloads\\welcomeCanada(conexion)\\welcomeCanada(v1)\\welcomeCanada(v1)\\welcomeCanada(v1)\\welcomeCanada\\PageConnexion.aspx.aspx.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\Downloads\\welcomeCanada(conexion)\\welcomeCanada(v1)\\welcomeCanada(v1)\\welcomeCanada(v1)\\welcomeCanada\\PageConnexion.aspx.aspx.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\welcomeCanada(conexion)\\welcomeCanada(v1)\\welcomeCanada(v1)\\welcomeCanada(v1)\\welcomeCanada\\PageConnexion.aspx.aspx.cs",
               "ToolTip": "C:\\Users\\ibrah\\Downloads\\welcomeCanada(conexion)\\welcomeCanada(v1)\\welcomeCanada(v1)\\welcomeCanada(v1)\\welcomeCanada\\PageConnexion.aspx.aspx.cs",
-              "RelativeToolTip": "..\\..\\..\\Downloads\\welcomeCanada(conexion)\\welcomeCanada(v1)\\welcomeCanada(v1)\\welcomeCanada(v1)\\welcomeCanada\\PageConnexion.aspx.aspx.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\welcomeCanada(conexion)\\welcomeCanada(v1)\\welcomeCanada(v1)\\welcomeCanada(v1)\\welcomeCanada\\PageConnexion.aspx.aspx.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-29T23:59:00.968Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Web.config",
-              "DocumentMoniker": "C:\\Users\\ibrah\\ProjetImplementationSysteme\\code\\welcomeCanada(v1)\\welcomeCanada\\Web.config",
-              "RelativeDocumentMoniker": "welcomeCanada\\Web.config",
-              "ToolTip": "C:\\Users\\ibrah\\ProjetImplementationSysteme\\code\\welcomeCanada(v1)\\welcomeCanada\\Web.config",
-              "RelativeToolTip": "welcomeCanada\\Web.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2026-03-30T00:01:45.085Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "index.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\ibrah\\ProjetImplementationSysteme\\code\\welcomeCanada(v1)\\welcomeCanada\\index.aspx.cs",
-              "RelativeDocumentMoniker": "welcomeCanada\\index.aspx.cs",
-              "ToolTip": "C:\\Users\\ibrah\\ProjetImplementationSysteme\\code\\welcomeCanada(v1)\\welcomeCanada\\index.aspx.cs",
-              "RelativeToolTip": "welcomeCanada\\index.aspx.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-30T00:00:36.404Z"
             }
           ]
         }
