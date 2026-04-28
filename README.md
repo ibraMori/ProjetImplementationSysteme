@@ -71,8 +71,8 @@ The application relies on a SQL Server database.
 
 1. Database Setup
 Open SQL Server Object Explorer in Visual Studio
-Locate or attach the database:
-welcomeCanDB
+Locate or attach the local database in App_Data:
+welcomeCanadaDB
 2. Required Tables
 
 The database already contains the necessary tables:
